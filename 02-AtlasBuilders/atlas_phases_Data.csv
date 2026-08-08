@@ -1,0 +1,8 @@
+PhaseID,PhaseName,PhaseOrder
+PH01,Initiation & Design,1
+PH02,Permits & Procurement,2
+PH03,Site Prep & Foundations,3
+PH04,Structure & Envelope,4
+PH05,MEP Rough-In,5
+PH06,Interiors & Finishes,6
+PH07,Commissioning & Closeout,7
