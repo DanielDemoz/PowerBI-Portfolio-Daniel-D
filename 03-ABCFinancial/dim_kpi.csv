@@ -1,0 +1,13 @@
+KPIID,ObjectiveID,KPIName,Unit,Direction,ThresholdRed,ThresholdGreen,OwningDepartment
+KPI01,OBJ01,Monthly Revenue,$,Higher is better,450000.0,520000.0,Finance
+KPI02,OBJ02,Operating Margin %,%,Higher is better,12.0,18.0,Finance
+KPI03,OBJ03,Customer Satisfaction Score,Score,Higher is better,78.0,90.0,Customer Service
+KPI04,OBJ04,Customer Retention %,%,Higher is better,84.0,94.0,Sales
+KPI05,OBJ05,On-Time Delivery %,%,Higher is better,88.0,97.0,Operations
+KPI06,OBJ06,Average Cycle Time (Days),Days,Lower is better,9.5,5.5,Operations
+KPI07,OBJ07,Employee Engagement Score,Score,Higher is better,68.0,85.0,Human Resources
+KPI08,OBJ08,Training Hours per Employee,Hours,Higher is better,4.0,12.0,Human Resources
+KPI09,OBJ08,Analytics Adoption %,%,Higher is better,35.0,80.0,Information Technology
+KPI10,OBJ02,Cost per Transaction,$,Lower is better,7.8,4.8,Operations
+KPI11,OBJ03,First Contact Resolution %,%,Higher is better,62.0,85.0,Customer Service
+KPI12,OBJ01,Average Revenue per Customer,$,Higher is better,180.0,240.0,Sales

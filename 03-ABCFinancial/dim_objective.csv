@@ -1,0 +1,9 @@
+ObjectiveID,PerspectiveID,ObjectiveName,ObjectiveDescription
+OBJ01,FIN,Grow revenue,Increase recurring and transactional revenue
+OBJ02,FIN,Improve operating margin,Control costs while scaling revenue
+OBJ03,CUS,Improve customer satisfaction,Raise service quality and responsiveness
+OBJ04,CUS,Increase retention,Reduce churn and grow loyalty
+OBJ05,INT,Improve on-time delivery,Deliver work consistently and predictably
+OBJ06,INT,Reduce cycle time,Shorten service and delivery turnaround
+OBJ07,LRN,Improve employee engagement,Increase morale and commitment
+OBJ08,LRN,Build digital capability,Improve training and adoption of analytics tools
