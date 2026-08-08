@@ -1,0 +1,27 @@
+ProductID,ProductCategory,ProductName,StandardUnitPrice,StandardUnitCost
+P001,Computers,Laptop Pro 14,1800,1350
+P002,Computers,Laptop Air 13,1400,1050
+P003,Computers,Gaming Desktop,2200,1650
+P004,Computers,2-in-1 Convertible 13,1250,950
+P005,Phones,Smartphone X,1200,820
+P006,Phones,Smartphone Mini,900,620
+P007,Phones,Smartphone Ultra,1450,980
+P008,Tablets,Tablet 11,750,520
+P009,Tablets,Tablet Pro 13,1100,770
+P010,TVs,4K LED TV 55,900,650
+P011,TVs,4K LED TV 65,1300,950
+P012,TVs,4K OLED TV 55,1600,1200
+P013,TVs,4K OLED TV 65,2400,1800
+P014,Audio,Noise Cancelling Headphones,350,220
+P015,Audio,Bluetooth Speaker,180,110
+P016,Audio,Soundbar 3.1,420,300
+P017,Accessories,Wireless Mouse,40,18
+P018,Accessories,Mechanical Keyboard,150,85
+P019,Accessories,USB-C Hub,55,28
+P020,Accessories,Wireless Charger,60,32
+P021,Accessories,Phone Case,35,12
+P022,Accessories,HDMI Cable,25,8
+P023,Networking,Wi‑Fi Router AX,220,145
+P024,Networking,Mesh Wi‑Fi 2‑Pack,380,260
+P025,Gaming,Game Console,650,480
+P026,Gaming,Controller,80,45
