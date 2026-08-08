@@ -1,0 +1,6 @@
+MembershipTypeID,MembershipType,MonthlyFee
+M01,Basic,40
+M02,Standard,65
+M03,Premium,90
+M04,Student,30
+M05,Corporate,75
