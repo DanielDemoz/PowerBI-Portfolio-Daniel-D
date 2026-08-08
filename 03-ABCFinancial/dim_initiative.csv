@@ -1,0 +1,7 @@
+InitiativeID,ObjectiveID,InitiativeName,Owner,StartDate,EndDate,Status
+INIT01,OBJ01,Cross-sell campaign,Sales,2024-02-01,2025-06-30,In Progress
+INIT02,OBJ02,Cost optimization program,Finance,2024-01-01,2025-12-31,In Progress
+INIT03,OBJ03,Voice of customer redesign,Customer Service,2024-03-01,2025-03-31,In Progress
+INIT04,OBJ05,Dispatch optimization,Operations,2024-04-01,2025-09-30,In Progress
+INIT05,OBJ08,BI enablement program,Information Technology,2024-01-01,2025-12-31,In Progress
+INIT06,OBJ07,Manager coaching program,Human Resources,2024-05-01,2025-12-31,Planned
