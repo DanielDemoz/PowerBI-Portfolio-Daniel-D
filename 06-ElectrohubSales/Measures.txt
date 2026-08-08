@@ -1,0 +1,5 @@
+Total Sales = SUM(Transactions[SalesAmount])
+Total Cost = SUM(Transactions[CostAmount])
+Total Profit = SUM(Transactions[Profit])
+Profit Margin % = DIVIDE([Total Profit], [Total Sales])
+Average Order Value = DIVIDE([Total Sales], DISTINCTCOUNT(Transactions[TransactionID]))

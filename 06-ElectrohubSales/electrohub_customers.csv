@@ -1,0 +1,1201 @@
+CustomerID,CustomerName,Gender,Age,CustomerSegment,City,Province,Country,JoinDate
+C00001,Alexander Singh,Male,60,Consumer,Sherbrooke,Quebec,Canada,2023-06-20
+C00002,William Thomas,Non-binary,32,Consumer,St. John's,Newfoundland and Labrador,Canada,2022-12-12
+C00003,Liam Nguyen,Male,36,Consumer,Calgary,Alberta,Canada,2024-12-28
+C00004,Aria Miller,Female,35,Small Business,Quebec City,Quebec,Canada,2023-01-27
+C00005,Carter Harris,Female,30,Consumer,Halifax,Nova Scotia,Canada,2022-09-08
+C00006,James Chen,Non-binary,36,Small Business,Brandon,Manitoba,Canada,2024-10-27
+C00007,Charlotte Reid,Female,38,Consumer,St. John's,Newfoundland and Labrador,Canada,2022-07-03
+C00008,William Harris,Non-binary,39,Consumer,Saskatoon,Saskatchewan,Canada,2024-08-07
+C00009,Aria Patel,Non-binary,28,Consumer,Lethbridge,Alberta,Canada,2022-10-18
+C00010,Nora Reid,Male,50,Small Business,Fredericton,New Brunswick,Canada,2022-11-09
+C00011,Grace Thomas,Male,45,Consumer,Richmond,British Columbia,Canada,2023-05-10
+C00012,Audrey Hughes,Female,31,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-08-02
+C00013,Abigail Hall,Male,70,Consumer,Montreal,Quebec,Canada,2024-02-04
+C00014,Owen Clarke,Female,34,Small Business,Burnaby,British Columbia,Canada,2022-10-07
+C00015,Samuel Chen,Non-binary,52,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-04-03
+C00016,Abigail Taylor,Non-binary,33,Consumer,Moncton,New Brunswick,Canada,2024-01-30
+C00017,Sophia Khan,Male,18,Consumer,Montreal,Quebec,Canada,2023-04-27
+C00018,Hudson Scott,Non-binary,45,Consumer,Saint John,New Brunswick,Canada,2024-11-09
+C00019,Hannah Young,Non-binary,37,Consumer,Saint John,New Brunswick,Canada,2024-01-12
+C00020,Mason Evans,Female,49,Consumer,Red Deer,Alberta,Canada,2024-09-16
+C00021,Ethan Hughes,Male,22,Consumer,Moncton,New Brunswick,Canada,2023-02-07
+C00022,Mason Hall,Male,25,Consumer,Burnaby,British Columbia,Canada,2022-01-22
+C00023,Aria Khan,Non-binary,22,Consumer,Regina,Saskatchewan,Canada,2022-02-17
+C00024,James Singh,Female,49,Consumer,Edmonton,Alberta,Canada,2024-02-24
+C00025,Olivia Lefebvre,Non-binary,30,Consumer,Winnipeg,Manitoba,Canada,2023-01-29
+C00026,Charlotte Clarke,Non-binary,63,Consumer,Charlottetown,Prince Edward Island,Canada,2024-04-24
+C00027,Ethan Morgan,Non-binary,53,Consumer,Guelph,Ontario,Canada,2022-10-04
+C00028,Audrey Fournier,Male,50,Consumer,Halifax,Nova Scotia,Canada,2022-11-06
+C00029,Joseph Wong,Female,48,Consumer,Lethbridge,Alberta,Canada,2024-10-04
+C00030,Mason Gagnon,Male,64,Consumer,Montreal,Quebec,Canada,2024-08-31
+C00031,Nathan Singh,Non-binary,54,Consumer,Saskatoon,Saskatchewan,Canada,2023-04-06
+C00032,Lucas Lee,Non-binary,37,Consumer,Brandon,Manitoba,Canada,2024-04-27
+C00033,Julian Thomas,Male,33,Consumer,Saint John,New Brunswick,Canada,2024-09-14
+C00034,Joseph Bélanger,Male,55,Consumer,Longueuil,Quebec,Canada,2023-10-10
+C00035,Abigail Anderson,Male,18,Small Business,Kelowna,British Columbia,Canada,2022-04-11
+C00036,Noah Lee,Non-binary,39,Consumer,St. John's,Newfoundland and Labrador,Canada,2024-09-28
+C00037,Mateo Stewart,Male,21,Corporate,Longueuil,Quebec,Canada,2022-07-10
+C00038,Henry Stewart,Male,18,Small Business,Saskatoon,Saskatchewan,Canada,2023-12-28
+C00039,Leo Reid,Non-binary,26,Consumer,Fort McMurray,Alberta,Canada,2023-03-20
+C00040,Mateo Côté,Female,37,Small Business,Edmonton,Alberta,Canada,2022-04-17
+C00041,Sofia Lefebvre,Male,43,Small Business,Kitchener,Ontario,Canada,2023-05-02
+C00042,Joseph Anderson,Female,48,Consumer,Regina,Saskatchewan,Canada,2023-06-14
+C00043,Hudson Taylor,Male,30,Consumer,Quebec City,Quebec,Canada,2024-09-27
+C00044,Joseph Côté,Male,21,Consumer,Charlottetown,Prince Edward Island,Canada,2024-09-15
+C00045,Joseph Taylor,Non-binary,34,Consumer,Gatineau,Quebec,Canada,2023-08-23
+C00046,Hannah Côté,Male,23,Small Business,Sydney,Nova Scotia,Canada,2023-04-21
+C00047,Sophia Wong,Male,38,Consumer,Longueuil,Quebec,Canada,2022-08-14
+C00048,Mason Wilson,Female,68,Consumer,Charlottetown,Prince Edward Island,Canada,2023-04-15
+C00049,Riley Singh,Non-binary,63,Small Business,Fredericton,New Brunswick,Canada,2022-09-05
+C00050,Daniel Singh,Non-binary,20,Consumer,Toronto,Ontario,Canada,2024-07-21
+C00051,Hudson Johnson,Non-binary,46,Small Business,Burnaby,British Columbia,Canada,2024-06-30
+C00052,Benjamin Lee,Female,37,Consumer,Winnipeg,Manitoba,Canada,2024-04-30
+C00053,Mateo Harris,Male,34,Consumer,Halifax,Nova Scotia,Canada,2023-12-29
+C00054,Emma Taylor,Male,32,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-09-18
+C00055,Owen Brown,Non-binary,34,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-04-21
+C00056,David Dubois,Non-binary,32,Consumer,Victoria,British Columbia,Canada,2023-02-03
+C00057,Charlotte Bélanger,Non-binary,45,Small Business,St. John's,Newfoundland and Labrador,Canada,2022-10-18
+C00058,Alexander Stewart,Non-binary,31,Consumer,Sherbrooke,Quebec,Canada,2022-07-03
+C00059,Emma Hughes,Female,57,Consumer,Sherbrooke,Quebec,Canada,2022-09-27
+C00060,David Fournier,Female,41,Small Business,Gatineau,Quebec,Canada,2022-01-02
+C00061,Alexander Evans,Non-binary,61,Consumer,Red Deer,Alberta,Canada,2023-07-31
+C00062,David Morgan,Non-binary,33,Small Business,St. John's,Newfoundland and Labrador,Canada,2023-04-07
+C00063,Isaac Stewart,Male,45,Corporate,Lethbridge,Alberta,Canada,2023-06-24
+C00064,Ethan Clarke,Female,26,Consumer,Saskatoon,Saskatchewan,Canada,2022-06-06
+C00065,Wyatt Hughes,Male,55,Consumer,Winnipeg,Manitoba,Canada,2023-03-05
+C00066,Audrey Singh,Non-binary,26,Consumer,Saskatoon,Saskatchewan,Canada,2024-04-02
+C00067,Henry Brown,Male,31,Consumer,Gatineau,Quebec,Canada,2024-10-01
+C00068,Chloe Wilson,Non-binary,36,Small Business,Richmond,British Columbia,Canada,2024-12-04
+C00069,Scarlett Morgan,Male,63,Consumer,Red Deer,Alberta,Canada,2022-06-26
+C00070,Alexander Nguyen,Non-binary,42,Consumer,Regina,Saskatchewan,Canada,2023-10-02
+C00071,David Tremblay,Male,33,Consumer,Charlottetown,Prince Edward Island,Canada,2022-01-12
+C00072,Owen Patel,Female,28,Corporate,Calgary,Alberta,Canada,2024-03-19
+C00073,Sophia Anderson,Male,39,Consumer,Surrey,British Columbia,Canada,2022-02-19
+C00074,Mateo Brown,Male,44,Small Business,Brandon,Manitoba,Canada,2023-01-02
+C00075,Charlotte Reid,Non-binary,33,Consumer,Saskatoon,Saskatchewan,Canada,2023-10-10
+C00076,Harper Roy,Non-binary,35,Consumer,Laval,Quebec,Canada,2022-04-03
+C00077,Noah Nguyen,Male,24,Consumer,Calgary,Alberta,Canada,2024-04-26
+C00078,Henry Gagnon,Male,32,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-07-14
+C00079,Harper Evans,Female,35,Consumer,Calgary,Alberta,Canada,2024-12-27
+C00080,Mason Anderson,Female,52,Consumer,Brandon,Manitoba,Canada,2024-11-23
+C00081,Sofia Lee,Male,36,Consumer,Surrey,British Columbia,Canada,2023-08-31
+C00082,Daniel Tremblay,Male,31,Consumer,London,Ontario,Canada,2024-02-03
+C00083,Owen Bélanger,Female,20,Corporate,Longueuil,Quebec,Canada,2023-03-04
+C00084,Riley Miller,Non-binary,40,Consumer,Sydney,Nova Scotia,Canada,2023-01-16
+C00085,Isaac Lee,Female,22,Consumer,Burnaby,British Columbia,Canada,2024-05-15
+C00086,Daniel Roy,Female,19,Consumer,Brandon,Manitoba,Canada,2023-02-11
+C00087,Mason Roy,Female,22,Consumer,Sydney,Nova Scotia,Canada,2024-03-22
+C00088,Julian Hughes,Non-binary,30,Consumer,Moncton,New Brunswick,Canada,2023-03-10
+C00089,Mason Khan,Male,39,Consumer,Regina,Saskatchewan,Canada,2022-05-02
+C00090,Aria Bouchard,Female,18,Consumer,Winnipeg,Manitoba,Canada,2022-01-19
+C00091,Daniel Dubois,Female,66,Consumer,Gatineau,Quebec,Canada,2024-07-27
+C00092,Harper Morgan,Non-binary,66,Consumer,St. John's,Newfoundland and Labrador,Canada,2024-07-31
+C00093,Sophia Anderson,Female,52,Consumer,Charlottetown,Prince Edward Island,Canada,2022-04-02
+C00094,Avery Tremblay,Male,37,Consumer,Calgary,Alberta,Canada,2024-10-16
+C00095,Lily Stewart,Female,37,Consumer,Charlottetown,Prince Edward Island,Canada,2023-11-27
+C00096,Mateo Bouchard,Non-binary,46,Corporate,Surrey,British Columbia,Canada,2022-10-23
+C00097,Hudson Evans,Non-binary,34,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-07-04
+C00098,Hudson Morgan,Female,33,Small Business,St. John's,Newfoundland and Labrador,Canada,2022-12-09
+C00099,Nora Harris,Non-binary,28,Consumer,Calgary,Alberta,Canada,2024-07-05
+C00100,Noah Chen,Female,31,Consumer,Gatineau,Quebec,Canada,2024-06-15
+C00101,David Fournier,Female,18,Consumer,St. John's,Newfoundland and Labrador,Canada,2022-09-25
+C00102,Chloe Anderson,Female,26,Consumer,Longueuil,Quebec,Canada,2022-10-31
+C00103,Owen Reid,Female,38,Consumer,Longueuil,Quebec,Canada,2023-03-11
+C00104,Violet Bélanger,Male,65,Small Business,Winnipeg,Manitoba,Canada,2022-08-16
+C00105,Hudson Lee,Female,18,Small Business,Saint John,New Brunswick,Canada,2024-06-03
+C00106,Michael Patel,Male,47,Small Business,Winnipeg,Manitoba,Canada,2023-12-21
+C00107,Zoey Côté,Female,21,Consumer,Regina,Saskatchewan,Canada,2022-04-14
+C00108,Riley Scott,Non-binary,48,Consumer,Guelph,Ontario,Canada,2023-08-08
+C00109,Emma Lefebvre,Male,20,Corporate,Longueuil,Quebec,Canada,2024-01-01
+C00110,Amelia Lefebvre,Male,50,Consumer,Brandon,Manitoba,Canada,2022-12-04
+C00111,Grace Turner,Female,36,Corporate,St. John's,Newfoundland and Labrador,Canada,2024-08-08
+C00112,Evelyn Nguyen,Male,41,Consumer,Moncton,New Brunswick,Canada,2023-05-12
+C00113,Owen Hall,Male,61,Consumer,Calgary,Alberta,Canada,2024-05-02
+C00114,Lily Nguyen,Female,44,Small Business,Brandon,Manitoba,Canada,2022-05-17
+C00115,Ethan Walker,Non-binary,43,Consumer,Longueuil,Quebec,Canada,2024-08-02
+C00116,Ella MacDonald,Male,59,Small Business,Saint John,New Brunswick,Canada,2022-09-12
+C00117,Noah Wilson,Female,49,Corporate,Saint John,New Brunswick,Canada,2024-07-26
+C00118,Evelyn Singh,Male,26,Consumer,Saskatoon,Saskatchewan,Canada,2024-11-18
+C00119,Abigail Martin,Male,33,Small Business,Halifax,Nova Scotia,Canada,2022-11-26
+C00120,Benjamin Martin,Non-binary,25,Consumer,Saskatoon,Saskatchewan,Canada,2024-05-23
+C00121,Avery Young,Non-binary,48,Consumer,Sydney,Nova Scotia,Canada,2023-11-08
+C00122,Emma Khan,Female,34,Consumer,Winnipeg,Manitoba,Canada,2023-12-11
+C00123,Isabella Khan,Male,37,Consumer,Red Deer,Alberta,Canada,2024-09-23
+C00124,Scarlett Tremblay,Non-binary,44,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-10-22
+C00125,Hudson Nguyen,Female,46,Corporate,Sydney,Nova Scotia,Canada,2023-05-10
+C00126,Zoey Brown,Non-binary,35,Small Business,Moncton,New Brunswick,Canada,2022-12-10
+C00127,Aria Brown,Female,32,Consumer,Regina,Saskatchewan,Canada,2023-08-16
+C00128,Evelyn Anderson,Non-binary,43,Small Business,Brandon,Manitoba,Canada,2024-08-17
+C00129,Riley Hughes,Male,51,Consumer,Halifax,Nova Scotia,Canada,2023-09-09
+C00130,Mason Wilson,Female,53,Consumer,Fredericton,New Brunswick,Canada,2022-05-16
+C00131,James Hall,Male,36,Corporate,Saint John,New Brunswick,Canada,2023-09-18
+C00132,Ethan Fournier,Female,36,Consumer,Surrey,British Columbia,Canada,2024-06-08
+C00133,Aria Nguyen,Male,35,Consumer,Winnipeg,Manitoba,Canada,2022-08-23
+C00134,Noah Clarke,Male,34,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-11-02
+C00135,Michael Khan,Male,49,Small Business,Saint John,New Brunswick,Canada,2023-02-06
+C00136,Nathan Thomas,Female,25,Consumer,St. John's,Newfoundland and Labrador,Canada,2022-01-01
+C00137,Sophia Khan,Female,49,Consumer,Saint John,New Brunswick,Canada,2022-06-06
+C00138,Evelyn Tremblay,Female,18,Consumer,Fredericton,New Brunswick,Canada,2023-03-02
+C00139,Chloe Martin,Female,18,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-08-03
+C00140,David Hughes,Female,47,Consumer,Kelowna,British Columbia,Canada,2022-09-01
+C00141,Nora Johnson,Non-binary,47,Consumer,Moncton,New Brunswick,Canada,2023-02-11
+C00142,Aria Chen,Female,43,Small Business,Fort McMurray,Alberta,Canada,2024-07-13
+C00143,Liam Scott,Female,18,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-11-07
+C00144,Isaac Gagnon,Female,34,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-11-14
+C00145,Michael Anderson,Female,48,Small Business,Toronto,Ontario,Canada,2022-05-26
+C00146,Leo Scott,Male,23,Consumer,Saskatoon,Saskatchewan,Canada,2022-05-25
+C00147,Joseph Stewart,Female,30,Consumer,Windsor,Ontario,Canada,2024-02-06
+C00148,Hannah Scott,Female,46,Consumer,Fredericton,New Brunswick,Canada,2022-06-24
+C00149,Riley Clarke,Female,45,Consumer,Sydney,Nova Scotia,Canada,2024-03-07
+C00150,James Lefebvre,Female,18,Consumer,Sydney,Nova Scotia,Canada,2022-10-20
+C00151,Nora Wong,Female,39,Consumer,Winnipeg,Manitoba,Canada,2024-07-06
+C00152,Amelia Lefebvre,Female,51,Consumer,Edmonton,Alberta,Canada,2022-09-13
+C00153,Grace MacDonald,Male,32,Small Business,Winnipeg,Manitoba,Canada,2022-05-14
+C00154,Zoey Lefebvre,Non-binary,58,Consumer,Lethbridge,Alberta,Canada,2023-08-25
+C00155,Samuel Roy,Non-binary,18,Consumer,Halifax,Nova Scotia,Canada,2024-11-11
+C00156,Amelia Tremblay,Non-binary,23,Consumer,Toronto,Ontario,Canada,2023-09-07
+C00157,Mia Wong,Male,55,Small Business,Saskatoon,Saskatchewan,Canada,2023-08-04
+C00158,Sophia Wilson,Male,49,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-02-18
+C00159,Liam Scott,Non-binary,41,Small Business,Regina,Saskatchewan,Canada,2022-01-11
+C00160,David Wilson,Female,43,Consumer,Winnipeg,Manitoba,Canada,2023-11-07
+C00161,Daniel Clarke,Female,18,Consumer,Lethbridge,Alberta,Canada,2023-05-28
+C00162,Daniel Scott,Male,51,Consumer,Moncton,New Brunswick,Canada,2022-03-24
+C00163,Ella Reid,Male,32,Consumer,Regina,Saskatchewan,Canada,2022-01-15
+C00164,Noah Clarke,Female,43,Small Business,Halifax,Nova Scotia,Canada,2022-11-19
+C00165,Michael Chen,Male,60,Consumer,Kitchener,Ontario,Canada,2022-06-04
+C00166,Benjamin Patel,Non-binary,18,Consumer,Brandon,Manitoba,Canada,2023-09-08
+C00167,Zoey Chen,Male,49,Small Business,Regina,Saskatchewan,Canada,2024-06-10
+C00168,Evelyn Martin,Non-binary,46,Small Business,Montreal,Quebec,Canada,2024-05-15
+C00169,James Johnson,Male,36,Consumer,Saint John,New Brunswick,Canada,2024-04-06
+C00170,Henry Miller,Male,51,Consumer,Moncton,New Brunswick,Canada,2023-07-09
+C00171,Olivia Scott,Non-binary,31,Small Business,Charlottetown,Prince Edward Island,Canada,2023-11-18
+C00172,Alexander Bouchard,Male,18,Consumer,Charlottetown,Prince Edward Island,Canada,2023-01-17
+C00173,Owen Côté,Male,33,Small Business,Lethbridge,Alberta,Canada,2023-09-21
+C00174,Lucas Chen,Male,18,Consumer,Saskatoon,Saskatchewan,Canada,2023-08-25
+C00175,Scarlett Johnson,Female,45,Consumer,Quebec City,Quebec,Canada,2023-06-27
+C00176,William Clarke,Male,24,Corporate,Moncton,New Brunswick,Canada,2023-08-12
+C00177,James Brown,Male,45,Consumer,Fort McMurray,Alberta,Canada,2024-02-01
+C00178,Audrey Gagnon,Male,38,Consumer,Charlottetown,Prince Edward Island,Canada,2022-09-06
+C00179,Ella Anderson,Non-binary,58,Consumer,Moncton,New Brunswick,Canada,2024-04-23
+C00180,Mia Hughes,Female,37,Consumer,Charlottetown,Prince Edward Island,Canada,2023-09-06
+C00181,Alexander Patel,Male,43,Consumer,Fort McMurray,Alberta,Canada,2024-07-15
+C00182,Sofia MacDonald,Non-binary,36,Small Business,Moncton,New Brunswick,Canada,2024-12-22
+C00183,William Martin,Male,18,Small Business,Lethbridge,Alberta,Canada,2022-02-14
+C00184,Ella Chen,Male,36,Consumer,London,Ontario,Canada,2023-07-22
+C00185,Julian Harris,Female,36,Corporate,Saskatoon,Saskatchewan,Canada,2022-08-24
+C00186,David Walker,Male,29,Small Business,Ottawa,Ontario,Canada,2022-12-19
+C00187,Carter Walker,Non-binary,50,Consumer,Calgary,Alberta,Canada,2024-07-23
+C00188,Ella Campbell,Female,18,Consumer,Winnipeg,Manitoba,Canada,2023-07-22
+C00189,Julian Lee,Female,27,Small Business,Sydney,Nova Scotia,Canada,2024-04-02
+C00190,Mia Evans,Male,31,Consumer,Guelph,Ontario,Canada,2023-05-15
+C00191,Aria Bélanger,Female,25,Consumer,Halifax,Nova Scotia,Canada,2024-11-27
+C00192,Carter Reid,Female,18,Consumer,Sydney,Nova Scotia,Canada,2024-03-23
+C00193,Samuel Bernard,Non-binary,27,Consumer,Kitchener,Ontario,Canada,2022-03-11
+C00194,Violet Lam,Male,23,Consumer,Kingston,Ontario,Canada,2023-02-11
+C00195,Riley Côté,Male,48,Small Business,Calgary,Alberta,Canada,2024-07-30
+C00196,Scarlett Wilson,Male,28,Consumer,Gatineau,Quebec,Canada,2024-08-07
+C00197,Nathan Thomas,Male,55,Small Business,Vancouver,British Columbia,Canada,2024-06-19
+C00198,Emma Fournier,Female,30,Consumer,Halifax,Nova Scotia,Canada,2024-11-19
+C00199,Nathan Evans,Male,32,Small Business,Victoria,British Columbia,Canada,2024-10-23
+C00200,Daniel Bernard,Female,36,Consumer,Montreal,Quebec,Canada,2022-11-26
+C00201,Michael Lefebvre,Female,44,Consumer,Guelph,Ontario,Canada,2024-07-28
+C00202,Alexander Roy,Non-binary,20,Corporate,Halifax,Nova Scotia,Canada,2024-12-12
+C00203,Hannah Evans,Non-binary,38,Small Business,Richmond,British Columbia,Canada,2022-10-23
+C00204,James Evans,Male,18,Consumer,Lethbridge,Alberta,Canada,2022-11-20
+C00205,Mia Lam,Female,23,Consumer,St. John's,Newfoundland and Labrador,Canada,2024-02-24
+C00206,Michael Taylor,Female,59,Consumer,Calgary,Alberta,Canada,2023-08-06
+C00207,Aria Chen,Non-binary,24,Small Business,Gatineau,Quebec,Canada,2024-10-23
+C00208,Julian Turner,Non-binary,31,Small Business,Brandon,Manitoba,Canada,2024-08-20
+C00209,Evelyn Harris,Female,60,Consumer,Regina,Saskatchewan,Canada,2024-03-03
+C00210,Owen Hall,Female,29,Consumer,Charlottetown,Prince Edward Island,Canada,2022-08-28
+C00211,Grace Hughes,Male,43,Small Business,Moncton,New Brunswick,Canada,2022-05-30
+C00212,Joseph Wong,Female,38,Consumer,Regina,Saskatchewan,Canada,2023-10-30
+C00213,Ella Nguyen,Male,28,Consumer,Toronto,Ontario,Canada,2022-03-27
+C00214,Carter Brown,Female,54,Corporate,Saskatoon,Saskatchewan,Canada,2024-03-04
+C00215,Emma Morgan,Male,36,Consumer,Vancouver,British Columbia,Canada,2022-10-01
+C00216,Lucas Evans,Non-binary,28,Consumer,Quebec City,Quebec,Canada,2023-05-03
+C00217,Ethan Lefebvre,Male,53,Corporate,Richmond,British Columbia,Canada,2024-12-12
+C00218,Hudson MacDonald,Female,52,Small Business,Charlottetown,Prince Edward Island,Canada,2023-04-22
+C00219,Mason Bouchard,Non-binary,29,Consumer,Moncton,New Brunswick,Canada,2024-01-16
+C00220,Henry Morgan,Male,49,Consumer,Winnipeg,Manitoba,Canada,2022-10-19
+C00221,Alexander Thomas,Female,37,Consumer,Halifax,Nova Scotia,Canada,2023-12-26
+C00222,Carter Khan,Non-binary,41,Consumer,Halifax,Nova Scotia,Canada,2024-02-07
+C00223,Henry Gagnon,Non-binary,43,Consumer,Regina,Saskatchewan,Canada,2022-09-16
+C00224,Aria Stewart,Non-binary,52,Consumer,Laval,Quebec,Canada,2023-11-18
+C00225,Leo Wong,Non-binary,44,Small Business,Brandon,Manitoba,Canada,2022-03-06
+C00226,Ella Lam,Female,43,Consumer,Gatineau,Quebec,Canada,2022-01-11
+C00227,James Dubois,Non-binary,69,Small Business,Kitchener,Ontario,Canada,2024-09-23
+C00228,Sofia Anderson,Male,37,Consumer,Charlottetown,Prince Edward Island,Canada,2024-03-12
+C00229,Hudson Martin,Non-binary,38,Consumer,Surrey,British Columbia,Canada,2022-07-23
+C00230,Zoey Miller,Male,46,Consumer,Hamilton,Ontario,Canada,2023-04-28
+C00231,Chloe MacDonald,Non-binary,41,Consumer,Toronto,Ontario,Canada,2023-03-20
+C00232,Olivia Lam,Male,47,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-02-20
+C00233,Leo MacDonald,Male,24,Consumer,Charlottetown,Prince Edward Island,Canada,2024-05-30
+C00234,Amelia Thomas,Non-binary,41,Small Business,Victoria,British Columbia,Canada,2024-02-13
+C00235,Olivia Hughes,Non-binary,45,Consumer,Montreal,Quebec,Canada,2022-05-05
+C00236,Carter Singh,Non-binary,53,Small Business,Sydney,Nova Scotia,Canada,2022-01-23
+C00237,Olivia Roy,Non-binary,34,Small Business,Regina,Saskatchewan,Canada,2023-07-18
+C00238,Julian Stewart,Non-binary,51,Consumer,Vancouver,British Columbia,Canada,2024-06-25
+C00239,Liam Roy,Non-binary,39,Consumer,Victoria,British Columbia,Canada,2024-02-26
+C00240,Mason Roy,Female,45,Consumer,St. John's,Newfoundland and Labrador,Canada,2024-07-29
+C00241,Charlotte Clarke,Female,46,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-12-05
+C00242,Zoey Dubois,Non-binary,41,Consumer,Winnipeg,Manitoba,Canada,2022-10-05
+C00243,Hudson Bélanger,Non-binary,39,Consumer,Sydney,Nova Scotia,Canada,2023-04-12
+C00244,Violet Turner,Female,39,Small Business,Moncton,New Brunswick,Canada,2024-10-04
+C00245,James Johnson,Male,26,Consumer,Ottawa,Ontario,Canada,2023-08-24
+C00246,Abigail Anderson,Non-binary,20,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-07-06
+C00247,Nora Stewart,Male,38,Consumer,Calgary,Alberta,Canada,2024-11-29
+C00248,Owen Martin,Female,41,Consumer,Edmonton,Alberta,Canada,2023-03-12
+C00249,Mason Bouchard,Female,31,Small Business,Saskatoon,Saskatchewan,Canada,2022-07-29
+C00250,Michael Reid,Male,57,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-11-28
+C00251,Noah Miller,Non-binary,42,Consumer,Winnipeg,Manitoba,Canada,2024-11-20
+C00252,Avery Evans,Non-binary,37,Consumer,Victoria,British Columbia,Canada,2022-11-26
+C00253,Liam Tremblay,Female,34,Consumer,Surrey,British Columbia,Canada,2023-09-05
+C00254,Charlotte Tremblay,Female,30,Consumer,Ottawa,Ontario,Canada,2022-03-22
+C00255,Violet Chen,Female,25,Small Business,Saskatoon,Saskatchewan,Canada,2022-08-07
+C00256,Leo Patel,Non-binary,36,Corporate,Quebec City,Quebec,Canada,2022-12-19
+C00257,Amelia Lee,Female,26,Consumer,Longueuil,Quebec,Canada,2024-06-26
+C00258,Carter Bernard,Male,35,Consumer,Longueuil,Quebec,Canada,2024-05-15
+C00259,Amelia Bernard,Male,25,Consumer,Winnipeg,Manitoba,Canada,2024-04-30
+C00260,Daniel Anderson,Male,45,Consumer,Regina,Saskatchewan,Canada,2022-04-23
+C00261,Audrey Walker,Non-binary,41,Consumer,Winnipeg,Manitoba,Canada,2022-07-22
+C00262,Samuel Tremblay,Male,26,Consumer,Laval,Quebec,Canada,2023-07-15
+C00263,Joseph Roy,Non-binary,58,Consumer,Sherbrooke,Quebec,Canada,2022-06-09
+C00264,Jack Wilson,Male,27,Consumer,Red Deer,Alberta,Canada,2023-03-10
+C00265,Mateo Roy,Female,48,Consumer,Gatineau,Quebec,Canada,2023-10-25
+C00266,Isaac Dubois,Male,38,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-07-02
+C00267,Nathan Wilson,Male,44,Small Business,Lethbridge,Alberta,Canada,2022-11-11
+C00268,Mason Gagnon,Non-binary,43,Small Business,Fredericton,New Brunswick,Canada,2023-02-27
+C00269,Aria Johnson,Non-binary,50,Consumer,Gatineau,Quebec,Canada,2023-04-29
+C00270,Avery Nguyen,Male,31,Small Business,Kingston,Ontario,Canada,2022-09-08
+C00271,Amelia Scott,Male,20,Consumer,St. John's,Newfoundland and Labrador,Canada,2022-07-18
+C00272,Michael MacDonald,Male,40,Consumer,Charlottetown,Prince Edward Island,Canada,2022-06-12
+C00273,Daniel Harris,Male,36,Consumer,Fredericton,New Brunswick,Canada,2024-11-18
+C00274,Aria Bouchard,Female,26,Consumer,Winnipeg,Manitoba,Canada,2024-10-14
+C00275,Ethan Campbell,Male,50,Consumer,Fort McMurray,Alberta,Canada,2024-09-09
+C00276,Benjamin Khan,Male,36,Small Business,Charlottetown,Prince Edward Island,Canada,2022-03-29
+C00277,Hudson Singh,Female,34,Small Business,Charlottetown,Prince Edward Island,Canada,2022-11-14
+C00278,Mason Hughes,Male,43,Corporate,Winnipeg,Manitoba,Canada,2022-11-24
+C00279,Mason Johnson,Female,18,Consumer,Surrey,British Columbia,Canada,2023-02-10
+C00280,Hudson Scott,Male,40,Consumer,Longueuil,Quebec,Canada,2023-11-29
+C00281,William Khan,Female,18,Small Business,Moncton,New Brunswick,Canada,2023-10-04
+C00282,Olivia Wong,Male,37,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-07-05
+C00283,Grace Tremblay,Female,35,Consumer,Halifax,Nova Scotia,Canada,2024-11-09
+C00284,Violet Hughes,Male,18,Consumer,Charlottetown,Prince Edward Island,Canada,2024-12-29
+C00285,James Harris,Female,58,Consumer,Gatineau,Quebec,Canada,2024-11-21
+C00286,Scarlett Bouchard,Male,40,Consumer,Gatineau,Quebec,Canada,2024-04-11
+C00287,Isabella Wong,Non-binary,23,Consumer,Surrey,British Columbia,Canada,2022-01-02
+C00288,Scarlett Bélanger,Male,49,Consumer,Halifax,Nova Scotia,Canada,2022-06-13
+C00289,Riley Bouchard,Female,51,Consumer,Moncton,New Brunswick,Canada,2023-09-22
+C00290,Liam Anderson,Non-binary,28,Consumer,Fort McMurray,Alberta,Canada,2024-05-28
+C00291,Daniel Johnson,Non-binary,36,Consumer,Lethbridge,Alberta,Canada,2024-07-15
+C00292,Owen Tremblay,Non-binary,51,Small Business,Regina,Saskatchewan,Canada,2022-04-17
+C00293,Samuel Turner,Female,30,Corporate,Burnaby,British Columbia,Canada,2024-08-10
+C00294,Owen Gagnon,Non-binary,20,Corporate,Saskatoon,Saskatchewan,Canada,2023-06-28
+C00295,Henry Khan,Male,28,Consumer,Ottawa,Ontario,Canada,2022-11-01
+C00296,Samuel Clarke,Non-binary,22,Consumer,Regina,Saskatchewan,Canada,2023-04-21
+C00297,William MacDonald,Male,20,Small Business,St. John's,Newfoundland and Labrador,Canada,2024-10-29
+C00298,Avery Turner,Female,48,Consumer,Longueuil,Quebec,Canada,2024-09-30
+C00299,Benjamin Bélanger,Non-binary,33,Consumer,Edmonton,Alberta,Canada,2024-10-01
+C00300,Daniel Clarke,Male,26,Corporate,St. John's,Newfoundland and Labrador,Canada,2024-05-01
+C00301,Audrey Bélanger,Male,18,Small Business,Red Deer,Alberta,Canada,2023-05-13
+C00302,Hannah Young,Non-binary,44,Consumer,Halifax,Nova Scotia,Canada,2023-02-23
+C00303,Joseph Martin,Non-binary,35,Small Business,Saskatoon,Saskatchewan,Canada,2023-06-23
+C00304,Riley Scott,Male,25,Consumer,Halifax,Nova Scotia,Canada,2023-03-06
+C00305,Wyatt Thomas,Female,41,Corporate,Halifax,Nova Scotia,Canada,2023-12-10
+C00306,Sophia Lam,Male,21,Small Business,Kelowna,British Columbia,Canada,2023-12-05
+C00307,Daniel Harris,Female,39,Consumer,Calgary,Alberta,Canada,2022-03-28
+C00308,Riley Bernard,Male,55,Consumer,Charlottetown,Prince Edward Island,Canada,2023-08-13
+C00309,James Dubois,Male,28,Consumer,Victoria,British Columbia,Canada,2022-02-27
+C00310,Avery Reid,Female,52,Consumer,Charlottetown,Prince Edward Island,Canada,2022-07-28
+C00311,Wyatt Fournier,Non-binary,25,Small Business,Lethbridge,Alberta,Canada,2024-05-16
+C00312,Isaac Lee,Non-binary,34,Consumer,Fredericton,New Brunswick,Canada,2023-03-21
+C00313,Ava Fournier,Female,40,Consumer,Edmonton,Alberta,Canada,2023-10-28
+C00314,Joseph Lefebvre,Non-binary,19,Consumer,Moncton,New Brunswick,Canada,2023-04-22
+C00315,Isaac Lefebvre,Female,37,Consumer,St. John's,Newfoundland and Labrador,Canada,2024-04-11
+C00316,Mason Bouchard,Male,56,Consumer,Fredericton,New Brunswick,Canada,2024-11-15
+C00317,Jack Turner,Male,46,Consumer,Quebec City,Quebec,Canada,2023-01-27
+C00318,Carter Thomas,Non-binary,33,Consumer,Toronto,Ontario,Canada,2022-03-03
+C00319,Nora Campbell,Female,29,Consumer,Moncton,New Brunswick,Canada,2024-06-13
+C00320,Liam Lee,Non-binary,51,Consumer,Surrey,British Columbia,Canada,2023-08-22
+C00321,William Thomas,Male,43,Consumer,St. John's,Newfoundland and Labrador,Canada,2024-08-22
+C00322,Jack Miller,Male,37,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-07-03
+C00323,Jack Bernard,Male,56,Small Business,Sydney,Nova Scotia,Canada,2023-10-24
+C00324,Owen Khan,Non-binary,39,Consumer,Lethbridge,Alberta,Canada,2024-11-19
+C00325,Ava Campbell,Female,44,Consumer,Winnipeg,Manitoba,Canada,2024-03-24
+C00326,Lily Nguyen,Female,25,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-02-19
+C00327,Leo Lam,Female,59,Consumer,Montreal,Quebec,Canada,2024-04-26
+C00328,Liam Côté,Male,25,Consumer,Windsor,Ontario,Canada,2022-11-19
+C00329,Zoey Singh,Non-binary,18,Consumer,Charlottetown,Prince Edward Island,Canada,2024-02-21
+C00330,Amelia Chen,Non-binary,43,Consumer,Vancouver,British Columbia,Canada,2024-02-21
+C00331,Wyatt Dubois,Female,51,Consumer,Longueuil,Quebec,Canada,2022-11-03
+C00332,Olivia Thomas,Female,31,Small Business,Corner Brook,Newfoundland and Labrador,Canada,2022-02-08
+C00333,Evelyn Dubois,Male,34,Consumer,Windsor,Ontario,Canada,2023-05-10
+C00334,Nathan Harris,Female,41,Consumer,St. John's,Newfoundland and Labrador,Canada,2022-02-26
+C00335,Ava Clarke,Non-binary,64,Consumer,Sydney,Nova Scotia,Canada,2023-02-25
+C00336,Lucas Martin,Non-binary,29,Consumer,Charlottetown,Prince Edward Island,Canada,2022-09-30
+C00337,Joseph Clarke,Non-binary,58,Consumer,Moncton,New Brunswick,Canada,2023-06-28
+C00338,Charlotte Martin,Male,44,Consumer,Montreal,Quebec,Canada,2022-03-11
+C00339,Amelia Gagnon,Female,43,Consumer,Winnipeg,Manitoba,Canada,2023-01-18
+C00340,David Dubois,Female,31,Consumer,Richmond,British Columbia,Canada,2023-10-22
+C00341,Mateo Nguyen,Male,50,Consumer,Saint John,New Brunswick,Canada,2024-08-14
+C00342,Wyatt Anderson,Female,26,Consumer,Toronto,Ontario,Canada,2022-03-27
+C00343,Olivia Evans,Female,74,Consumer,Winnipeg,Manitoba,Canada,2024-01-04
+C00344,Chloe Walker,Female,59,Consumer,Charlottetown,Prince Edward Island,Canada,2023-10-13
+C00345,Joseph Wilson,Female,51,Corporate,Laval,Quebec,Canada,2023-08-25
+C00346,Riley Wilson,Non-binary,32,Small Business,Saint John,New Brunswick,Canada,2022-08-01
+C00347,Audrey Hall,Male,45,Small Business,Charlottetown,Prince Edward Island,Canada,2024-03-01
+C00348,Jack Khan,Female,30,Consumer,Charlottetown,Prince Edward Island,Canada,2024-05-20
+C00349,Julian Martin,Female,20,Consumer,Brandon,Manitoba,Canada,2023-04-03
+C00350,Isabella Young,Male,53,Consumer,Charlottetown,Prince Edward Island,Canada,2024-05-09
+C00351,David Bernard,Non-binary,45,Consumer,Brandon,Manitoba,Canada,2024-06-05
+C00352,Scarlett Wilson,Non-binary,26,Corporate,Kitchener,Ontario,Canada,2023-04-05
+C00353,Charlotte Lam,Female,47,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-01-07
+C00354,Daniel Reid,Female,33,Consumer,Saint John,New Brunswick,Canada,2022-03-21
+C00355,Benjamin MacDonald,Male,20,Consumer,Sydney,Nova Scotia,Canada,2024-03-09
+C00356,Hannah Lee,Male,43,Consumer,Windsor,Ontario,Canada,2023-02-04
+C00357,Grace Reid,Female,39,Consumer,Saskatoon,Saskatchewan,Canada,2023-10-19
+C00358,James Wong,Non-binary,26,Consumer,Brandon,Manitoba,Canada,2022-11-02
+C00359,Joseph Morgan,Non-binary,19,Consumer,Edmonton,Alberta,Canada,2023-12-05
+C00360,Sophia Dubois,Non-binary,31,Consumer,Charlottetown,Prince Edward Island,Canada,2022-06-07
+C00361,Avery Stewart,Female,45,Consumer,Saint John,New Brunswick,Canada,2023-07-19
+C00362,William Thomas,Non-binary,18,Consumer,Quebec City,Quebec,Canada,2023-11-25
+C00363,Alexander Walker,Female,29,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-05-24
+C00364,William Chen,Female,51,Corporate,Charlottetown,Prince Edward Island,Canada,2022-04-02
+C00365,Lily Lam,Female,58,Consumer,Brandon,Manitoba,Canada,2022-10-04
+C00366,William Hall,Non-binary,53,Small Business,Surrey,British Columbia,Canada,2022-12-12
+C00367,Liam Campbell,Female,26,Corporate,Halifax,Nova Scotia,Canada,2022-08-14
+C00368,Noah Roy,Female,47,Consumer,Saint John,New Brunswick,Canada,2022-08-10
+C00369,Lucas Walker,Non-binary,54,Consumer,Longueuil,Quebec,Canada,2022-11-01
+C00370,Sophia Anderson,Male,63,Consumer,Longueuil,Quebec,Canada,2022-02-09
+C00371,Owen Wong,Female,23,Consumer,Surrey,British Columbia,Canada,2023-06-09
+C00372,Isabella MacDonald,Female,25,Consumer,Brandon,Manitoba,Canada,2023-07-24
+C00373,Emma Fournier,Female,38,Small Business,Kitchener,Ontario,Canada,2023-08-21
+C00374,Owen Bélanger,Female,48,Consumer,Saskatoon,Saskatchewan,Canada,2022-02-11
+C00375,Benjamin Scott,Non-binary,40,Consumer,Gatineau,Quebec,Canada,2023-01-30
+C00376,Alexander Thomas,Male,36,Consumer,Regina,Saskatchewan,Canada,2022-06-03
+C00377,Michael Wilson,Male,29,Consumer,Richmond,British Columbia,Canada,2022-02-18
+C00378,Olivia Turner,Non-binary,44,Small Business,Hamilton,Ontario,Canada,2023-11-10
+C00379,James Patel,Non-binary,49,Small Business,Burnaby,British Columbia,Canada,2024-10-17
+C00380,William Young,Female,56,Consumer,Saint John,New Brunswick,Canada,2022-07-28
+C00381,Alexander MacDonald,Male,32,Consumer,Saskatoon,Saskatchewan,Canada,2022-01-31
+C00382,Abigail MacDonald,Non-binary,21,Consumer,Fredericton,New Brunswick,Canada,2022-07-29
+C00383,Charlotte Hall,Female,33,Consumer,Halifax,Nova Scotia,Canada,2022-03-25
+C00384,Charlotte Tremblay,Male,46,Consumer,Brandon,Manitoba,Canada,2023-09-11
+C00385,Mason Anderson,Male,46,Consumer,Saint John,New Brunswick,Canada,2022-02-10
+C00386,Ava Singh,Non-binary,25,Consumer,Fort McMurray,Alberta,Canada,2023-07-12
+C00387,Joseph Bernard,Female,36,Consumer,Red Deer,Alberta,Canada,2024-02-17
+C00388,Scarlett Anderson,Female,52,Corporate,Gatineau,Quebec,Canada,2024-03-04
+C00389,Jack Clarke,Female,18,Consumer,Winnipeg,Manitoba,Canada,2022-09-14
+C00390,Carter Tremblay,Male,48,Small Business,Saskatoon,Saskatchewan,Canada,2023-01-26
+C00391,David Martin,Non-binary,32,Consumer,Regina,Saskatchewan,Canada,2024-09-08
+C00392,Liam Clarke,Female,46,Consumer,Victoria,British Columbia,Canada,2023-10-10
+C00393,Mia Stewart,Female,47,Consumer,Fort McMurray,Alberta,Canada,2024-01-12
+C00394,Sophia Nguyen,Non-binary,37,Small Business,Winnipeg,Manitoba,Canada,2023-04-23
+C00395,Amelia Brown,Non-binary,67,Consumer,Fort McMurray,Alberta,Canada,2024-06-20
+C00396,Evelyn Côté,Female,25,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-04-18
+C00397,Hudson Roy,Non-binary,61,Small Business,Regina,Saskatchewan,Canada,2022-12-03
+C00398,Carter Lefebvre,Female,18,Consumer,Moncton,New Brunswick,Canada,2022-11-29
+C00399,Wyatt Khan,Female,32,Consumer,Saskatoon,Saskatchewan,Canada,2024-01-27
+C00400,Mason Thomas,Non-binary,30,Consumer,Kingston,Ontario,Canada,2023-10-09
+C00401,Sofia Hall,Non-binary,57,Consumer,Saskatoon,Saskatchewan,Canada,2022-02-22
+C00402,Alexander Young,Non-binary,55,Small Business,Kitchener,Ontario,Canada,2023-02-22
+C00403,William Lefebvre,Male,42,Consumer,St. John's,Newfoundland and Labrador,Canada,2024-12-08
+C00404,Noah Hughes,Female,36,Consumer,Victoria,British Columbia,Canada,2022-05-03
+C00405,William Scott,Male,43,Consumer,Toronto,Ontario,Canada,2024-09-02
+C00406,William Côté,Male,40,Consumer,Charlottetown,Prince Edward Island,Canada,2023-08-15
+C00407,Sofia Hughes,Non-binary,55,Consumer,Saskatoon,Saskatchewan,Canada,2022-06-07
+C00408,Hannah Dubois,Female,18,Consumer,Saint John,New Brunswick,Canada,2024-07-11
+C00409,Lily Morgan,Male,40,Consumer,Gatineau,Quebec,Canada,2022-06-05
+C00410,Ethan Reid,Non-binary,42,Consumer,Edmonton,Alberta,Canada,2023-10-19
+C00411,Wyatt Lam,Male,46,Small Business,Vancouver,British Columbia,Canada,2022-03-22
+C00412,Carter Young,Non-binary,41,Consumer,Charlottetown,Prince Edward Island,Canada,2024-08-07
+C00413,Avery Roy,Male,49,Consumer,Red Deer,Alberta,Canada,2024-10-05
+C00414,Hannah Miller,Non-binary,33,Small Business,Regina,Saskatchewan,Canada,2022-03-19
+C00415,Aria Roy,Male,37,Consumer,Saskatoon,Saskatchewan,Canada,2024-03-23
+C00416,Scarlett Martin,Male,53,Consumer,Vancouver,British Columbia,Canada,2022-09-23
+C00417,Alexander Miller,Female,39,Consumer,London,Ontario,Canada,2023-04-24
+C00418,Ethan Clarke,Male,18,Small Business,Fredericton,New Brunswick,Canada,2024-08-23
+C00419,Liam Chen,Female,53,Small Business,Charlottetown,Prince Edward Island,Canada,2022-06-02
+C00420,Nora Evans,Male,30,Consumer,Ottawa,Ontario,Canada,2022-08-05
+C00421,Henry Gagnon,Non-binary,49,Consumer,Calgary,Alberta,Canada,2022-05-03
+C00422,Jack Gagnon,Male,23,Consumer,Vancouver,British Columbia,Canada,2022-07-19
+C00423,Emma Walker,Non-binary,42,Small Business,Gatineau,Quebec,Canada,2022-07-21
+C00424,Lily Reid,Female,18,Consumer,St. John's,Newfoundland and Labrador,Canada,2022-10-21
+C00425,Jack Clarke,Non-binary,24,Consumer,Calgary,Alberta,Canada,2023-12-30
+C00426,Violet Reid,Male,21,Small Business,Charlottetown,Prince Edward Island,Canada,2022-03-09
+C00427,Riley Young,Female,41,Consumer,Regina,Saskatchewan,Canada,2023-11-07
+C00428,Aria Scott,Non-binary,33,Consumer,Winnipeg,Manitoba,Canada,2023-02-14
+C00429,Isabella Campbell,Female,35,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-09-18
+C00430,Lily Wong,Female,57,Corporate,Victoria,British Columbia,Canada,2024-04-08
+C00431,Alexander Fournier,Male,49,Consumer,Winnipeg,Manitoba,Canada,2023-10-05
+C00432,Jack Roy,Female,42,Consumer,Sherbrooke,Quebec,Canada,2023-08-05
+C00433,Daniel Hall,Non-binary,58,Consumer,Sydney,Nova Scotia,Canada,2022-11-01
+C00434,Daniel Johnson,Non-binary,34,Consumer,Burnaby,British Columbia,Canada,2022-12-01
+C00435,Abigail Taylor,Female,42,Consumer,Charlottetown,Prince Edward Island,Canada,2023-09-10
+C00436,Sofia Johnson,Non-binary,39,Small Business,Saint John,New Brunswick,Canada,2024-03-11
+C00437,Carter Brown,Male,25,Small Business,Windsor,Ontario,Canada,2022-12-31
+C00438,Audrey Fournier,Non-binary,26,Consumer,Halifax,Nova Scotia,Canada,2022-08-27
+C00439,Samuel Khan,Non-binary,45,Consumer,Sydney,Nova Scotia,Canada,2024-06-25
+C00440,Isaac Turner,Male,37,Small Business,Brandon,Manitoba,Canada,2024-06-07
+C00441,Avery Stewart,Non-binary,32,Consumer,Saskatoon,Saskatchewan,Canada,2022-06-16
+C00442,Violet Lefebvre,Male,24,Consumer,Kelowna,British Columbia,Canada,2024-04-05
+C00443,Evelyn Singh,Male,27,Consumer,Charlottetown,Prince Edward Island,Canada,2023-11-09
+C00444,Sophia Campbell,Male,49,Corporate,Charlottetown,Prince Edward Island,Canada,2024-05-20
+C00445,Alexander Lee,Male,36,Small Business,Toronto,Ontario,Canada,2023-09-09
+C00446,Emma Anderson,Non-binary,42,Small Business,Brandon,Manitoba,Canada,2022-09-16
+C00447,Leo Evans,Male,36,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-05-20
+C00448,Michael Turner,Male,60,Consumer,Regina,Saskatchewan,Canada,2022-03-03
+C00449,Olivia Patel,Non-binary,44,Consumer,Sydney,Nova Scotia,Canada,2023-11-28
+C00450,Owen Wong,Non-binary,66,Consumer,Charlottetown,Prince Edward Island,Canada,2023-07-28
+C00451,Benjamin Clarke,Male,18,Consumer,Charlottetown,Prince Edward Island,Canada,2024-12-07
+C00452,Isaac Stewart,Non-binary,37,Small Business,Surrey,British Columbia,Canada,2023-09-14
+C00453,Alexander Thomas,Female,34,Small Business,St. John's,Newfoundland and Labrador,Canada,2022-05-07
+C00454,Ava Bernard,Non-binary,41,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-08-05
+C00455,Carter Wilson,Non-binary,50,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-05-26
+C00456,Owen Côté,Male,41,Consumer,Charlottetown,Prince Edward Island,Canada,2024-08-06
+C00457,Daniel Lam,Non-binary,56,Consumer,Windsor,Ontario,Canada,2022-01-23
+C00458,Olivia Martin,Male,34,Consumer,St. John's,Newfoundland and Labrador,Canada,2024-02-24
+C00459,Evelyn Wong,Female,42,Consumer,London,Ontario,Canada,2023-03-28
+C00460,Mia Lefebvre,Non-binary,42,Consumer,St. John's,Newfoundland and Labrador,Canada,2022-09-13
+C00461,Nathan Côté,Male,30,Consumer,Victoria,British Columbia,Canada,2022-09-02
+C00462,Sofia Morgan,Female,30,Consumer,Quebec City,Quebec,Canada,2023-12-28
+C00463,Sofia Lefebvre,Male,43,Consumer,Toronto,Ontario,Canada,2023-07-13
+C00464,Nora Harris,Male,44,Consumer,Red Deer,Alberta,Canada,2022-09-10
+C00465,Harper Wilson,Female,42,Consumer,Sherbrooke,Quebec,Canada,2022-04-02
+C00466,Lucas Taylor,Female,36,Consumer,Halifax,Nova Scotia,Canada,2024-08-11
+C00467,Emma MacDonald,Male,42,Consumer,Guelph,Ontario,Canada,2024-11-16
+C00468,Emma Evans,Female,58,Consumer,Hamilton,Ontario,Canada,2024-03-08
+C00469,Lily Dubois,Male,19,Consumer,Saint John,New Brunswick,Canada,2022-03-10
+C00470,Samuel Walker,Male,49,Corporate,Moncton,New Brunswick,Canada,2022-12-15
+C00471,Isabella Young,Non-binary,34,Consumer,Lethbridge,Alberta,Canada,2022-01-02
+C00472,Evelyn Wong,Non-binary,29,Consumer,Calgary,Alberta,Canada,2023-03-19
+C00473,Mia Wilson,Male,44,Consumer,Kitchener,Ontario,Canada,2024-04-03
+C00474,Avery Fournier,Male,53,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-11-20
+C00475,Abigail Wong,Non-binary,47,Consumer,Gatineau,Quebec,Canada,2022-01-16
+C00476,Daniel Fournier,Female,29,Consumer,Saint John,New Brunswick,Canada,2022-08-24
+C00477,Daniel Hughes,Male,34,Consumer,Kingston,Ontario,Canada,2024-04-09
+C00478,Charlotte Hughes,Non-binary,56,Consumer,Red Deer,Alberta,Canada,2023-05-05
+C00479,Leo Brown,Non-binary,37,Consumer,Edmonton,Alberta,Canada,2022-12-13
+C00480,Ella Taylor,Female,56,Small Business,Halifax,Nova Scotia,Canada,2024-10-12
+C00481,Evelyn Bélanger,Non-binary,36,Consumer,Fredericton,New Brunswick,Canada,2024-05-24
+C00482,Ethan Anderson,Non-binary,38,Small Business,Charlottetown,Prince Edward Island,Canada,2022-03-01
+C00483,Leo Hughes,Male,46,Consumer,Edmonton,Alberta,Canada,2024-08-10
+C00484,Mateo Gagnon,Non-binary,20,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-02-11
+C00485,Violet Young,Female,18,Consumer,Charlottetown,Prince Edward Island,Canada,2023-07-21
+C00486,Evelyn Martin,Male,51,Consumer,Victoria,British Columbia,Canada,2023-03-14
+C00487,Alexander Côté,Non-binary,37,Small Business,Sherbrooke,Quebec,Canada,2023-07-26
+C00488,Ella Morgan,Male,37,Consumer,Winnipeg,Manitoba,Canada,2022-10-30
+C00489,James Bernard,Female,53,Small Business,Sydney,Nova Scotia,Canada,2024-07-14
+C00490,Daniel Wong,Male,23,Small Business,Surrey,British Columbia,Canada,2024-07-06
+C00491,Mia Tremblay,Male,38,Consumer,Regina,Saskatchewan,Canada,2023-12-12
+C00492,Noah Turner,Female,37,Corporate,Sydney,Nova Scotia,Canada,2024-04-17
+C00493,Carter Johnson,Female,65,Consumer,Winnipeg,Manitoba,Canada,2022-09-12
+C00494,Hannah Chen,Male,36,Consumer,Burnaby,British Columbia,Canada,2023-11-07
+C00495,Benjamin Scott,Female,25,Consumer,Kitchener,Ontario,Canada,2024-12-10
+C00496,Carter Dubois,Non-binary,49,Small Business,Charlottetown,Prince Edward Island,Canada,2024-12-08
+C00497,Hannah Stewart,Male,37,Corporate,Charlottetown,Prince Edward Island,Canada,2022-07-09
+C00498,Olivia Gagnon,Non-binary,27,Consumer,Toronto,Ontario,Canada,2023-06-13
+C00499,Isabella Gagnon,Female,20,Small Business,Red Deer,Alberta,Canada,2022-10-22
+C00500,Violet Nguyen,Male,57,Consumer,Halifax,Nova Scotia,Canada,2024-12-27
+C00501,Harper Stewart,Female,41,Consumer,Sydney,Nova Scotia,Canada,2023-01-14
+C00502,Abigail Morgan,Non-binary,33,Consumer,Fredericton,New Brunswick,Canada,2022-10-16
+C00503,Emma Lee,Male,18,Consumer,Burnaby,British Columbia,Canada,2023-05-16
+C00504,Mateo Côté,Female,39,Corporate,Corner Brook,Newfoundland and Labrador,Canada,2024-11-11
+C00505,Mia Reid,Female,48,Corporate,Fort McMurray,Alberta,Canada,2024-02-22
+C00506,Henry Hughes,Female,64,Consumer,Regina,Saskatchewan,Canada,2024-03-05
+C00507,Sophia Côté,Non-binary,36,Consumer,Richmond,British Columbia,Canada,2023-11-21
+C00508,Hannah Lefebvre,Non-binary,28,Consumer,Calgary,Alberta,Canada,2024-12-25
+C00509,Owen Hall,Female,42,Corporate,Regina,Saskatchewan,Canada,2023-09-04
+C00510,Ethan Singh,Non-binary,25,Consumer,Saskatoon,Saskatchewan,Canada,2023-08-25
+C00511,Aria Miller,Female,33,Consumer,Kelowna,British Columbia,Canada,2022-09-18
+C00512,Grace Wong,Female,26,Consumer,Winnipeg,Manitoba,Canada,2023-04-12
+C00513,Ella Lefebvre,Female,42,Consumer,Brandon,Manitoba,Canada,2022-01-26
+C00514,Benjamin Gagnon,Non-binary,55,Consumer,Quebec City,Quebec,Canada,2022-03-15
+C00515,Alexander Hall,Male,18,Consumer,Winnipeg,Manitoba,Canada,2023-05-17
+C00516,Aria Patel,Female,46,Consumer,Moncton,New Brunswick,Canada,2024-10-18
+C00517,Violet Campbell,Non-binary,72,Consumer,Longueuil,Quebec,Canada,2023-07-22
+C00518,Chloe Miller,Male,33,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-08-05
+C00519,Olivia Taylor,Female,36,Consumer,Charlottetown,Prince Edward Island,Canada,2024-11-03
+C00520,Riley Hughes,Female,34,Consumer,Toronto,Ontario,Canada,2023-06-06
+C00521,Audrey Wong,Female,47,Consumer,Richmond,British Columbia,Canada,2024-09-23
+C00522,Sofia Wilson,Female,32,Small Business,Brandon,Manitoba,Canada,2023-04-01
+C00523,Michael Dubois,Non-binary,37,Small Business,Saskatoon,Saskatchewan,Canada,2022-05-25
+C00524,Ella Brown,Non-binary,49,Small Business,Winnipeg,Manitoba,Canada,2023-03-11
+C00525,Emma Chen,Female,53,Consumer,Halifax,Nova Scotia,Canada,2022-08-04
+C00526,Amelia Lefebvre,Male,22,Consumer,Surrey,British Columbia,Canada,2022-01-04
+C00527,Julian Harris,Non-binary,48,Consumer,Edmonton,Alberta,Canada,2024-06-01
+C00528,Ethan Hall,Non-binary,59,Corporate,Montreal,Quebec,Canada,2023-11-21
+C00529,David Bélanger,Female,18,Consumer,Saskatoon,Saskatchewan,Canada,2024-10-15
+C00530,Liam Evans,Non-binary,45,Consumer,Winnipeg,Manitoba,Canada,2022-12-26
+C00531,Wyatt Roy,Non-binary,25,Consumer,Saskatoon,Saskatchewan,Canada,2022-03-20
+C00532,David Martin,Non-binary,29,Corporate,Richmond,British Columbia,Canada,2022-11-21
+C00533,Mason Young,Male,55,Consumer,Charlottetown,Prince Edward Island,Canada,2023-01-20
+C00534,Nathan Côté,Male,25,Consumer,Regina,Saskatchewan,Canada,2022-03-08
+C00535,Scarlett Reid,Non-binary,60,Small Business,Halifax,Nova Scotia,Canada,2024-03-04
+C00536,Emma Campbell,Non-binary,34,Consumer,Charlottetown,Prince Edward Island,Canada,2023-02-15
+C00537,Ella Bélanger,Non-binary,32,Consumer,Brandon,Manitoba,Canada,2024-06-15
+C00538,Sofia Tremblay,Female,19,Consumer,Fredericton,New Brunswick,Canada,2024-03-29
+C00539,Sophia Singh,Non-binary,29,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-05-09
+C00540,Ella Stewart,Female,51,Consumer,Sydney,Nova Scotia,Canada,2024-05-06
+C00541,Ava MacDonald,Female,46,Corporate,Fort McMurray,Alberta,Canada,2023-07-29
+C00542,Violet Gagnon,Female,22,Small Business,Winnipeg,Manitoba,Canada,2022-05-15
+C00543,Benjamin Stewart,Non-binary,36,Consumer,Moncton,New Brunswick,Canada,2022-02-12
+C00544,Aria Turner,Female,49,Consumer,Longueuil,Quebec,Canada,2022-12-18
+C00545,Owen Harris,Non-binary,40,Consumer,Halifax,Nova Scotia,Canada,2024-11-07
+C00546,David Brown,Non-binary,36,Consumer,Longueuil,Quebec,Canada,2023-01-23
+C00547,Hudson Morgan,Female,43,Consumer,Halifax,Nova Scotia,Canada,2023-03-15
+C00548,Benjamin Lam,Male,28,Small Business,Surrey,British Columbia,Canada,2022-11-29
+C00549,Audrey Evans,Female,56,Consumer,Kingston,Ontario,Canada,2024-09-09
+C00550,Liam Martin,Non-binary,35,Consumer,Lethbridge,Alberta,Canada,2022-07-22
+C00551,Evelyn Gagnon,Non-binary,23,Consumer,Sherbrooke,Quebec,Canada,2022-11-10
+C00552,Benjamin Lam,Female,46,Small Business,Saskatoon,Saskatchewan,Canada,2024-04-09
+C00553,Ella Campbell,Non-binary,40,Consumer,Winnipeg,Manitoba,Canada,2022-07-21
+C00554,Isabella Thomas,Non-binary,39,Small Business,Regina,Saskatchewan,Canada,2023-12-25
+C00555,Liam Walker,Male,22,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-10-06
+C00556,Julian Gagnon,Female,49,Corporate,Red Deer,Alberta,Canada,2022-05-09
+C00557,Daniel Côté,Non-binary,35,Consumer,Charlottetown,Prince Edward Island,Canada,2022-12-27
+C00558,Ava Tremblay,Male,46,Consumer,Winnipeg,Manitoba,Canada,2022-12-24
+C00559,Charlotte Fournier,Male,31,Small Business,Halifax,Nova Scotia,Canada,2022-06-14
+C00560,Lily Anderson,Non-binary,39,Corporate,Brandon,Manitoba,Canada,2022-11-08
+C00561,Olivia Tremblay,Male,52,Corporate,Fredericton,New Brunswick,Canada,2023-10-08
+C00562,Joseph Chen,Female,53,Consumer,Charlottetown,Prince Edward Island,Canada,2022-02-10
+C00563,Joseph Wilson,Non-binary,44,Small Business,Halifax,Nova Scotia,Canada,2022-04-20
+C00564,Zoey Stewart,Female,37,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-05-31
+C00565,Evelyn Brown,Non-binary,33,Consumer,Edmonton,Alberta,Canada,2023-09-18
+C00566,Ella Turner,Male,18,Consumer,Sydney,Nova Scotia,Canada,2024-04-29
+C00567,Alexander Martin,Male,18,Consumer,Saskatoon,Saskatchewan,Canada,2023-05-21
+C00568,Noah Hughes,Male,35,Small Business,Charlottetown,Prince Edward Island,Canada,2022-03-23
+C00569,Carter Singh,Non-binary,22,Consumer,Brandon,Manitoba,Canada,2022-08-16
+C00570,Harper Patel,Non-binary,33,Corporate,Saskatoon,Saskatchewan,Canada,2022-08-12
+C00571,Isaac Chen,Non-binary,24,Small Business,Quebec City,Quebec,Canada,2024-09-30
+C00572,Audrey Miller,Non-binary,18,Consumer,Laval,Quebec,Canada,2024-08-25
+C00573,Jack Hughes,Female,56,Consumer,Brandon,Manitoba,Canada,2022-04-27
+C00574,Violet Thomas,Non-binary,47,Small Business,Red Deer,Alberta,Canada,2022-03-26
+C00575,Aria Wong,Male,31,Consumer,Regina,Saskatchewan,Canada,2023-10-05
+C00576,Joseph Morgan,Male,45,Small Business,Red Deer,Alberta,Canada,2024-04-10
+C00577,Charlotte Brown,Female,26,Consumer,Saint John,New Brunswick,Canada,2023-06-03
+C00578,David Wong,Non-binary,39,Small Business,Kelowna,British Columbia,Canada,2022-08-11
+C00579,Lucas Singh,Male,54,Consumer,Brandon,Manitoba,Canada,2022-04-24
+C00580,Lucas Côté,Non-binary,18,Corporate,Charlottetown,Prince Edward Island,Canada,2022-12-15
+C00581,Evelyn Harris,Male,44,Corporate,Regina,Saskatchewan,Canada,2023-06-18
+C00582,Hudson Patel,Male,23,Consumer,Surrey,British Columbia,Canada,2024-12-29
+C00583,Henry Reid,Female,42,Small Business,Winnipeg,Manitoba,Canada,2022-08-09
+C00584,Hannah Tremblay,Female,49,Consumer,Moncton,New Brunswick,Canada,2024-07-19
+C00585,Julian Bernard,Non-binary,47,Consumer,Edmonton,Alberta,Canada,2023-10-16
+C00586,Hudson Roy,Female,29,Consumer,Montreal,Quebec,Canada,2022-05-17
+C00587,Nathan Campbell,Non-binary,18,Consumer,Red Deer,Alberta,Canada,2024-05-06
+C00588,Leo Martin,Non-binary,58,Consumer,London,Ontario,Canada,2023-08-12
+C00589,Alexander Bouchard,Non-binary,23,Consumer,Saint John,New Brunswick,Canada,2023-02-13
+C00590,Zoey Campbell,Female,30,Consumer,Halifax,Nova Scotia,Canada,2023-01-30
+C00591,Sophia Evans,Male,50,Small Business,Charlottetown,Prince Edward Island,Canada,2022-11-23
+C00592,Henry Turner,Female,34,Consumer,Regina,Saskatchewan,Canada,2024-07-01
+C00593,Emma Clarke,Non-binary,43,Consumer,Saskatoon,Saskatchewan,Canada,2024-04-14
+C00594,Sophia Tremblay,Female,31,Consumer,St. John's,Newfoundland and Labrador,Canada,2022-03-06
+C00595,Daniel Thomas,Male,30,Consumer,Charlottetown,Prince Edward Island,Canada,2024-06-30
+C00596,Wyatt Walker,Non-binary,28,Consumer,Charlottetown,Prince Edward Island,Canada,2023-02-22
+C00597,Hannah Bélanger,Female,40,Small Business,Brandon,Manitoba,Canada,2022-05-24
+C00598,Aria Khan,Male,55,Consumer,Winnipeg,Manitoba,Canada,2024-05-31
+C00599,Henry Martin,Non-binary,53,Consumer,Saskatoon,Saskatchewan,Canada,2022-12-01
+C00600,Carter MacDonald,Male,40,Small Business,Montreal,Quebec,Canada,2022-08-19
+C00601,Zoey Brown,Female,54,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-11-15
+C00602,Aria Dubois,Male,23,Corporate,Saskatoon,Saskatchewan,Canada,2022-03-09
+C00603,Mia Wilson,Non-binary,24,Consumer,Lethbridge,Alberta,Canada,2024-02-28
+C00604,Chloe Lee,Non-binary,19,Small Business,Sydney,Nova Scotia,Canada,2023-11-11
+C00605,Amelia Bouchard,Female,39,Consumer,Ottawa,Ontario,Canada,2022-08-20
+C00606,Riley Wong,Non-binary,58,Small Business,London,Ontario,Canada,2023-05-09
+C00607,Nathan Young,Male,62,Small Business,Halifax,Nova Scotia,Canada,2023-01-04
+C00608,Noah Anderson,Female,46,Consumer,Halifax,Nova Scotia,Canada,2022-05-04
+C00609,James Taylor,Female,38,Consumer,Sydney,Nova Scotia,Canada,2022-06-12
+C00610,Evelyn Lefebvre,Female,39,Corporate,Burnaby,British Columbia,Canada,2023-05-17
+C00611,Audrey Khan,Female,51,Small Business,Winnipeg,Manitoba,Canada,2022-11-29
+C00612,Abigail Martin,Male,45,Small Business,Edmonton,Alberta,Canada,2023-05-17
+C00613,Alexander Evans,Non-binary,36,Corporate,Fort McMurray,Alberta,Canada,2023-11-10
+C00614,Emma Lee,Non-binary,41,Consumer,Moncton,New Brunswick,Canada,2023-12-04
+C00615,Scarlett Brown,Male,53,Consumer,Quebec City,Quebec,Canada,2022-12-20
+C00616,Olivia Brown,Male,36,Consumer,Saskatoon,Saskatchewan,Canada,2022-07-25
+C00617,Mateo Wilson,Male,19,Consumer,Gatineau,Quebec,Canada,2024-05-12
+C00618,Abigail Wong,Male,27,Corporate,London,Ontario,Canada,2024-08-15
+C00619,Benjamin Martin,Female,20,Consumer,Charlottetown,Prince Edward Island,Canada,2022-09-19
+C00620,Nathan Miller,Non-binary,46,Consumer,Toronto,Ontario,Canada,2022-05-24
+C00621,Alexander Patel,Female,42,Consumer,Moncton,New Brunswick,Canada,2024-05-20
+C00622,Sofia Miller,Female,19,Consumer,St. John's,Newfoundland and Labrador,Canada,2022-02-17
+C00623,Carter Reid,Non-binary,42,Corporate,Corner Brook,Newfoundland and Labrador,Canada,2024-12-25
+C00624,Chloe Patel,Male,31,Corporate,Calgary,Alberta,Canada,2024-10-31
+C00625,Harper Dubois,Female,18,Consumer,Montreal,Quebec,Canada,2022-04-16
+C00626,Benjamin Morgan,Female,51,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-08-03
+C00627,Harper Martin,Male,36,Consumer,Fredericton,New Brunswick,Canada,2024-03-03
+C00628,Jack Fournier,Male,66,Consumer,Brandon,Manitoba,Canada,2023-04-08
+C00629,Scarlett Bouchard,Non-binary,33,Consumer,Burnaby,British Columbia,Canada,2023-09-03
+C00630,Mateo Young,Male,45,Small Business,London,Ontario,Canada,2022-08-27
+C00631,Julian Morgan,Male,37,Consumer,Halifax,Nova Scotia,Canada,2024-09-22
+C00632,Benjamin Gagnon,Female,45,Small Business,Toronto,Ontario,Canada,2022-02-25
+C00633,Avery Fournier,Male,35,Consumer,Fredericton,New Brunswick,Canada,2023-09-16
+C00634,Wyatt Bouchard,Male,55,Corporate,Guelph,Ontario,Canada,2024-09-05
+C00635,Violet Bélanger,Non-binary,28,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-06-30
+C00636,Isabella Young,Male,39,Consumer,Sydney,Nova Scotia,Canada,2022-12-18
+C00637,Zoey Bouchard,Female,40,Consumer,St. John's,Newfoundland and Labrador,Canada,2024-07-02
+C00638,Zoey Anderson,Male,54,Small Business,Fredericton,New Brunswick,Canada,2024-08-13
+C00639,Daniel Stewart,Non-binary,18,Consumer,Edmonton,Alberta,Canada,2024-07-25
+C00640,Lucas Stewart,Male,26,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-08-28
+C00641,Ella Hughes,Non-binary,40,Consumer,Moncton,New Brunswick,Canada,2023-12-28
+C00642,Carter Chen,Male,48,Consumer,Halifax,Nova Scotia,Canada,2023-03-08
+C00643,Samuel Singh,Non-binary,51,Consumer,Laval,Quebec,Canada,2022-10-22
+C00644,Daniel Stewart,Non-binary,36,Consumer,Laval,Quebec,Canada,2022-10-14
+C00645,Avery Bernard,Male,18,Consumer,Fredericton,New Brunswick,Canada,2024-11-13
+C00646,Joseph Dubois,Non-binary,23,Consumer,Surrey,British Columbia,Canada,2022-08-18
+C00647,Chloe Stewart,Non-binary,49,Consumer,Regina,Saskatchewan,Canada,2023-10-11
+C00648,Michael Anderson,Female,58,Consumer,Kitchener,Ontario,Canada,2022-12-22
+C00649,Emma Harris,Female,27,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-09-18
+C00650,Alexander Anderson,Female,26,Consumer,Moncton,New Brunswick,Canada,2023-01-16
+C00651,Sofia Lefebvre,Female,36,Consumer,Sydney,Nova Scotia,Canada,2023-03-16
+C00652,Zoey Thomas,Female,54,Consumer,Sydney,Nova Scotia,Canada,2024-12-16
+C00653,Liam Bernard,Male,36,Consumer,Charlottetown,Prince Edward Island,Canada,2022-03-16
+C00654,Daniel Hughes,Male,20,Small Business,Kelowna,British Columbia,Canada,2023-08-31
+C00655,Benjamin Harris,Male,29,Consumer,Red Deer,Alberta,Canada,2023-04-13
+C00656,Lucas Nguyen,Male,62,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-07-08
+C00657,Chloe Tremblay,Female,39,Consumer,Saint John,New Brunswick,Canada,2024-11-30
+C00658,Isaac Miller,Male,52,Corporate,Vancouver,British Columbia,Canada,2023-03-01
+C00659,David Wong,Male,34,Consumer,London,Ontario,Canada,2024-11-13
+C00660,Violet Côté,Male,18,Consumer,Brandon,Manitoba,Canada,2022-09-22
+C00661,Audrey Young,Male,26,Consumer,Calgary,Alberta,Canada,2023-07-11
+C00662,Nathan Martin,Female,51,Consumer,Fort McMurray,Alberta,Canada,2023-07-04
+C00663,Grace Roy,Non-binary,39,Consumer,Regina,Saskatchewan,Canada,2022-01-04
+C00664,Emma Fournier,Non-binary,48,Small Business,Charlottetown,Prince Edward Island,Canada,2023-04-13
+C00665,Samuel Roy,Non-binary,42,Consumer,Saskatoon,Saskatchewan,Canada,2022-05-04
+C00666,Sofia Martin,Female,43,Corporate,Brandon,Manitoba,Canada,2024-12-24
+C00667,Sophia Bouchard,Male,44,Consumer,Brandon,Manitoba,Canada,2024-01-01
+C00668,Owen Clarke,Non-binary,39,Consumer,Winnipeg,Manitoba,Canada,2024-01-16
+C00669,Michael Miller,Non-binary,29,Consumer,Edmonton,Alberta,Canada,2023-07-29
+C00670,Emma Lee,Non-binary,62,Consumer,Fredericton,New Brunswick,Canada,2024-12-05
+C00671,Chloe Harris,Female,54,Consumer,Saskatoon,Saskatchewan,Canada,2022-10-07
+C00672,Grace Fournier,Non-binary,54,Consumer,Saskatoon,Saskatchewan,Canada,2024-11-10
+C00673,Leo Patel,Male,38,Corporate,Saskatoon,Saskatchewan,Canada,2024-03-17
+C00674,Harper MacDonald,Male,26,Consumer,Fort McMurray,Alberta,Canada,2024-10-24
+C00675,Zoey Turner,Male,36,Corporate,Moncton,New Brunswick,Canada,2024-11-14
+C00676,Amelia Roy,Female,29,Consumer,Montreal,Quebec,Canada,2024-10-24
+C00677,Ethan Patel,Non-binary,49,Consumer,Hamilton,Ontario,Canada,2024-10-30
+C00678,Chloe MacDonald,Non-binary,45,Small Business,Winnipeg,Manitoba,Canada,2022-09-27
+C00679,Leo Wilson,Female,37,Small Business,Fort McMurray,Alberta,Canada,2023-02-02
+C00680,William Turner,Female,42,Consumer,Montreal,Quebec,Canada,2024-12-28
+C00681,Samuel MacDonald,Non-binary,45,Small Business,Fredericton,New Brunswick,Canada,2022-05-21
+C00682,Scarlett Singh,Female,55,Corporate,Vancouver,British Columbia,Canada,2022-06-18
+C00683,Mason Hall,Male,27,Small Business,Charlottetown,Prince Edward Island,Canada,2022-06-08
+C00684,Hannah Fournier,Non-binary,46,Consumer,Brandon,Manitoba,Canada,2023-07-25
+C00685,Aria Lee,Female,56,Corporate,Lethbridge,Alberta,Canada,2024-11-21
+C00686,Liam Bouchard,Male,42,Consumer,Winnipeg,Manitoba,Canada,2022-12-17
+C00687,Riley Reid,Non-binary,52,Consumer,Moncton,New Brunswick,Canada,2022-10-04
+C00688,Hudson Dubois,Male,32,Consumer,Halifax,Nova Scotia,Canada,2022-09-07
+C00689,Liam Taylor,Female,35,Consumer,Fort McMurray,Alberta,Canada,2024-10-20
+C00690,Sofia Patel,Male,30,Consumer,Guelph,Ontario,Canada,2024-02-19
+C00691,Sophia Côté,Male,43,Consumer,Winnipeg,Manitoba,Canada,2022-10-14
+C00692,Benjamin Brown,Male,29,Consumer,Fort McMurray,Alberta,Canada,2022-10-22
+C00693,Evelyn Chen,Non-binary,30,Consumer,Kingston,Ontario,Canada,2022-12-20
+C00694,Benjamin Singh,Non-binary,69,Consumer,Surrey,British Columbia,Canada,2022-10-25
+C00695,Daniel Hall,Male,49,Consumer,Saskatoon,Saskatchewan,Canada,2023-03-24
+C00696,Ava Scott,Female,19,Small Business,Moncton,New Brunswick,Canada,2022-01-29
+C00697,Violet Fournier,Female,43,Small Business,Charlottetown,Prince Edward Island,Canada,2022-06-14
+C00698,Grace Chen,Female,36,Consumer,Charlottetown,Prince Edward Island,Canada,2022-12-31
+C00699,Samuel Brown,Male,37,Consumer,Saskatoon,Saskatchewan,Canada,2024-06-18
+C00700,Ella Wilson,Male,64,Consumer,Laval,Quebec,Canada,2022-09-03
+C00701,Olivia Bélanger,Male,19,Consumer,Montreal,Quebec,Canada,2023-08-28
+C00702,Isabella Gagnon,Female,32,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-08-03
+C00703,Alexander Turner,Female,66,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-08-19
+C00704,Owen Anderson,Male,33,Corporate,Brandon,Manitoba,Canada,2022-05-11
+C00705,Aria Lee,Female,30,Small Business,St. John's,Newfoundland and Labrador,Canada,2023-04-13
+C00706,William Martin,Female,47,Corporate,Fredericton,New Brunswick,Canada,2023-06-03
+C00707,Nathan Lee,Non-binary,25,Small Business,Quebec City,Quebec,Canada,2024-07-05
+C00708,Charlotte Anderson,Female,41,Consumer,Charlottetown,Prince Edward Island,Canada,2022-08-04
+C00709,Jack Lam,Female,18,Consumer,Charlottetown,Prince Edward Island,Canada,2024-04-15
+C00710,James Hughes,Non-binary,49,Small Business,St. John's,Newfoundland and Labrador,Canada,2023-07-13
+C00711,Isabella Patel,Non-binary,21,Consumer,Montreal,Quebec,Canada,2023-01-18
+C00712,Amelia Evans,Non-binary,55,Consumer,Brandon,Manitoba,Canada,2022-07-04
+C00713,Sophia Turner,Non-binary,42,Corporate,Kingston,Ontario,Canada,2022-02-24
+C00714,Samuel Clarke,Female,38,Consumer,Edmonton,Alberta,Canada,2023-06-07
+C00715,Hudson Morgan,Non-binary,26,Consumer,Saskatoon,Saskatchewan,Canada,2022-09-18
+C00716,Amelia Côté,Female,44,Consumer,Montreal,Quebec,Canada,2022-03-19
+C00717,Joseph Chen,Male,30,Consumer,Saskatoon,Saskatchewan,Canada,2022-10-09
+C00718,Mateo Walker,Non-binary,38,Consumer,Kingston,Ontario,Canada,2022-11-12
+C00719,Samuel Nguyen,Non-binary,43,Consumer,Saskatoon,Saskatchewan,Canada,2022-12-30
+C00720,Chloe Lefebvre,Female,41,Consumer,Winnipeg,Manitoba,Canada,2022-05-10
+C00721,Violet Turner,Non-binary,35,Consumer,Sydney,Nova Scotia,Canada,2022-03-03
+C00722,Carter Morgan,Male,26,Small Business,Charlottetown,Prince Edward Island,Canada,2024-04-08
+C00723,Lucas Anderson,Female,34,Consumer,Charlottetown,Prince Edward Island,Canada,2022-10-12
+C00724,Aria Hughes,Male,21,Consumer,Windsor,Ontario,Canada,2022-11-20
+C00725,Wyatt Wong,Non-binary,44,Consumer,Regina,Saskatchewan,Canada,2022-02-18
+C00726,Avery Nguyen,Female,41,Consumer,Regina,Saskatchewan,Canada,2022-04-12
+C00727,Evelyn Martin,Male,22,Consumer,Ottawa,Ontario,Canada,2022-03-07
+C00728,Joseph Clarke,Male,20,Consumer,Moncton,New Brunswick,Canada,2023-10-10
+C00729,Abigail Reid,Female,47,Consumer,Sydney,Nova Scotia,Canada,2024-10-30
+C00730,Zoey Chen,Male,26,Consumer,Winnipeg,Manitoba,Canada,2023-04-13
+C00731,Isaac Hall,Male,43,Consumer,Calgary,Alberta,Canada,2022-11-05
+C00732,Amelia Chen,Male,23,Small Business,Burnaby,British Columbia,Canada,2023-03-14
+C00733,Harper Campbell,Female,33,Consumer,Red Deer,Alberta,Canada,2022-10-02
+C00734,Zoey Wong,Male,41,Consumer,St. John's,Newfoundland and Labrador,Canada,2022-07-09
+C00735,Mason Wong,Non-binary,39,Consumer,Vancouver,British Columbia,Canada,2022-01-08
+C00736,Isabella Turner,Non-binary,24,Small Business,Brandon,Manitoba,Canada,2022-02-13
+C00737,Nora Johnson,Non-binary,56,Small Business,Corner Brook,Newfoundland and Labrador,Canada,2024-01-25
+C00738,Ethan Anderson,Non-binary,31,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-01-26
+C00739,David Khan,Male,54,Consumer,Halifax,Nova Scotia,Canada,2023-07-06
+C00740,Riley Lefebvre,Male,45,Consumer,Toronto,Ontario,Canada,2022-09-12
+C00741,Nora Gagnon,Non-binary,30,Consumer,Winnipeg,Manitoba,Canada,2023-04-05
+C00742,Hudson Walker,Non-binary,53,Consumer,Regina,Saskatchewan,Canada,2024-11-22
+C00743,Ethan Martin,Male,54,Consumer,Charlottetown,Prince Edward Island,Canada,2023-06-03
+C00744,Avery Dubois,Non-binary,47,Consumer,Winnipeg,Manitoba,Canada,2023-01-18
+C00745,Jack Reid,Female,30,Consumer,Halifax,Nova Scotia,Canada,2023-08-15
+C00746,Nora Young,Male,33,Corporate,Regina,Saskatchewan,Canada,2023-06-07
+C00747,Alexander Wilson,Non-binary,70,Consumer,Kingston,Ontario,Canada,2024-12-06
+C00748,Ethan Côté,Non-binary,34,Small Business,Hamilton,Ontario,Canada,2023-05-06
+C00749,Evelyn Stewart,Female,35,Consumer,Kitchener,Ontario,Canada,2022-02-09
+C00750,Michael Thomas,Non-binary,40,Consumer,Brandon,Manitoba,Canada,2022-04-28
+C00751,Benjamin Evans,Male,53,Corporate,Halifax,Nova Scotia,Canada,2024-11-22
+C00752,Nora Anderson,Male,44,Consumer,Sydney,Nova Scotia,Canada,2022-12-20
+C00753,Harper Gagnon,Female,32,Corporate,Charlottetown,Prince Edward Island,Canada,2024-12-24
+C00754,Owen Clarke,Non-binary,49,Consumer,Saskatoon,Saskatchewan,Canada,2024-01-25
+C00755,Charlotte Khan,Non-binary,26,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-09-26
+C00756,Mateo Patel,Male,25,Consumer,Sydney,Nova Scotia,Canada,2022-05-13
+C00757,Carter Gagnon,Male,63,Consumer,Toronto,Ontario,Canada,2022-12-31
+C00758,Leo Lam,Male,48,Consumer,Regina,Saskatchewan,Canada,2022-01-23
+C00759,Isabella Patel,Non-binary,53,Consumer,Charlottetown,Prince Edward Island,Canada,2024-06-25
+C00760,Hannah Gagnon,Male,42,Consumer,Richmond,British Columbia,Canada,2022-07-29
+C00761,Carter Gagnon,Male,40,Consumer,Regina,Saskatchewan,Canada,2022-01-05
+C00762,Avery Lefebvre,Male,45,Consumer,Richmond,British Columbia,Canada,2024-02-17
+C00763,Charlotte Reid,Non-binary,25,Consumer,Winnipeg,Manitoba,Canada,2022-08-21
+C00764,Amelia Campbell,Non-binary,34,Consumer,Halifax,Nova Scotia,Canada,2024-10-19
+C00765,Owen Martin,Non-binary,22,Consumer,Charlottetown,Prince Edward Island,Canada,2024-05-20
+C00766,Avery Lee,Non-binary,43,Small Business,Victoria,British Columbia,Canada,2022-02-16
+C00767,James Hughes,Non-binary,57,Consumer,Winnipeg,Manitoba,Canada,2023-05-20
+C00768,Violet Young,Male,30,Consumer,Sydney,Nova Scotia,Canada,2023-01-12
+C00769,Hannah Patel,Non-binary,19,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-04-24
+C00770,Julian Lee,Female,18,Consumer,Saskatoon,Saskatchewan,Canada,2023-04-27
+C00771,Ella Tremblay,Non-binary,54,Consumer,Laval,Quebec,Canada,2024-10-16
+C00772,Amelia Martin,Male,41,Consumer,Burnaby,British Columbia,Canada,2024-06-10
+C00773,Harper Morgan,Female,30,Corporate,Charlottetown,Prince Edward Island,Canada,2023-05-31
+C00774,Liam Reid,Male,34,Consumer,Red Deer,Alberta,Canada,2023-02-01
+C00775,Carter Campbell,Male,43,Consumer,Edmonton,Alberta,Canada,2023-05-22
+C00776,Aria Lee,Male,51,Small Business,Charlottetown,Prince Edward Island,Canada,2023-04-19
+C00777,James Dubois,Female,34,Small Business,Brandon,Manitoba,Canada,2022-01-11
+C00778,Ella Patel,Non-binary,46,Consumer,Sherbrooke,Quebec,Canada,2022-01-28
+C00779,Ava Wong,Male,23,Consumer,Charlottetown,Prince Edward Island,Canada,2024-04-03
+C00780,James Roy,Male,58,Corporate,Regina,Saskatchewan,Canada,2022-06-14
+C00781,Lucas Bélanger,Non-binary,35,Consumer,Fredericton,New Brunswick,Canada,2024-08-04
+C00782,Hannah Evans,Male,18,Consumer,Charlottetown,Prince Edward Island,Canada,2024-03-23
+C00783,Ava Wong,Female,57,Consumer,Calgary,Alberta,Canada,2023-09-28
+C00784,Violet Stewart,Female,33,Consumer,Edmonton,Alberta,Canada,2022-11-30
+C00785,Audrey Anderson,Female,56,Consumer,Winnipeg,Manitoba,Canada,2023-09-23
+C00786,Violet Evans,Non-binary,58,Consumer,Saskatoon,Saskatchewan,Canada,2023-06-29
+C00787,Samuel Martin,Non-binary,31,Small Business,Corner Brook,Newfoundland and Labrador,Canada,2024-05-24
+C00788,Aria Taylor,Non-binary,47,Consumer,Regina,Saskatchewan,Canada,2024-08-05
+C00789,Evelyn Johnson,Female,53,Small Business,Regina,Saskatchewan,Canada,2024-01-27
+C00790,Noah Turner,Female,21,Consumer,Surrey,British Columbia,Canada,2024-05-31
+C00791,Audrey Bélanger,Male,43,Corporate,Regina,Saskatchewan,Canada,2022-03-26
+C00792,Joseph Brown,Female,42,Consumer,Brandon,Manitoba,Canada,2024-10-30
+C00793,Amelia Taylor,Male,26,Consumer,Red Deer,Alberta,Canada,2022-01-24
+C00794,Sofia Miller,Non-binary,40,Small Business,Burnaby,British Columbia,Canada,2022-04-05
+C00795,Ethan Brown,Female,43,Consumer,Charlottetown,Prince Edward Island,Canada,2024-12-02
+C00796,Noah Martin,Female,48,Consumer,London,Ontario,Canada,2023-02-03
+C00797,Nathan Reid,Female,33,Small Business,Regina,Saskatchewan,Canada,2022-06-10
+C00798,Chloe Lee,Female,38,Consumer,Regina,Saskatchewan,Canada,2022-09-24
+C00799,William Johnson,Non-binary,39,Small Business,Lethbridge,Alberta,Canada,2024-05-14
+C00800,Grace Lam,Non-binary,18,Corporate,Moncton,New Brunswick,Canada,2024-11-23
+C00801,Nathan Roy,Male,43,Consumer,Lethbridge,Alberta,Canada,2023-04-09
+C00802,Isaac Bélanger,Non-binary,20,Consumer,Fredericton,New Brunswick,Canada,2024-03-15
+C00803,Michael Patel,Non-binary,18,Consumer,Calgary,Alberta,Canada,2024-03-19
+C00804,Avery Lam,Non-binary,46,Small Business,London,Ontario,Canada,2022-01-18
+C00805,William Côté,Female,50,Consumer,Windsor,Ontario,Canada,2024-02-02
+C00806,Isabella MacDonald,Non-binary,51,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-09-21
+C00807,Henry Chen,Female,18,Consumer,Moncton,New Brunswick,Canada,2023-04-13
+C00808,Mateo Johnson,Female,45,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-07-03
+C00809,Zoey Morgan,Male,24,Consumer,Halifax,Nova Scotia,Canada,2023-03-18
+C00810,Lucas Tremblay,Non-binary,40,Consumer,Sherbrooke,Quebec,Canada,2022-02-10
+C00811,Aria Evans,Non-binary,31,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-04-30
+C00812,Hannah Roy,Non-binary,38,Consumer,Brandon,Manitoba,Canada,2024-02-15
+C00813,Avery Martin,Non-binary,40,Small Business,Hamilton,Ontario,Canada,2022-06-19
+C00814,Owen Turner,Female,51,Consumer,Lethbridge,Alberta,Canada,2024-04-15
+C00815,Ava Evans,Female,26,Consumer,Saskatoon,Saskatchewan,Canada,2024-10-27
+C00816,Sophia Hughes,Female,67,Consumer,Brandon,Manitoba,Canada,2023-10-04
+C00817,Evelyn Bernard,Female,18,Consumer,Charlottetown,Prince Edward Island,Canada,2023-09-19
+C00818,Audrey Côté,Female,23,Consumer,Ottawa,Ontario,Canada,2023-04-03
+C00819,Nora Walker,Female,49,Consumer,Saint John,New Brunswick,Canada,2024-11-04
+C00820,Zoey Lam,Non-binary,58,Consumer,Montreal,Quebec,Canada,2022-07-12
+C00821,Emma Tremblay,Non-binary,46,Consumer,Halifax,Nova Scotia,Canada,2023-03-29
+C00822,Mia Evans,Male,25,Consumer,Surrey,British Columbia,Canada,2024-02-16
+C00823,Evelyn Taylor,Female,49,Consumer,Quebec City,Quebec,Canada,2022-10-20
+C00824,David Wilson,Non-binary,40,Consumer,Fredericton,New Brunswick,Canada,2023-06-01
+C00825,Mateo Bouchard,Male,26,Small Business,Windsor,Ontario,Canada,2024-12-04
+C00826,Leo Tremblay,Male,53,Consumer,Regina,Saskatchewan,Canada,2024-10-17
+C00827,Olivia Hughes,Male,28,Small Business,St. John's,Newfoundland and Labrador,Canada,2024-12-04
+C00828,William Chen,Male,40,Consumer,Regina,Saskatchewan,Canada,2024-12-21
+C00829,Lucas Reid,Female,45,Corporate,Victoria,British Columbia,Canada,2024-06-25
+C00830,Sofia Roy,Non-binary,42,Consumer,Lethbridge,Alberta,Canada,2023-10-07
+C00831,Sofia Nguyen,Non-binary,31,Consumer,Winnipeg,Manitoba,Canada,2022-02-28
+C00832,Hannah Anderson,Male,54,Consumer,Kelowna,British Columbia,Canada,2024-12-09
+C00833,David Evans,Non-binary,44,Consumer,Brandon,Manitoba,Canada,2023-06-14
+C00834,Isabella Campbell,Male,36,Corporate,Longueuil,Quebec,Canada,2023-01-18
+C00835,Amelia Anderson,Non-binary,32,Corporate,Charlottetown,Prince Edward Island,Canada,2022-12-21
+C00836,Riley Patel,Non-binary,52,Consumer,Sydney,Nova Scotia,Canada,2022-07-27
+C00837,Lucas Patel,Non-binary,25,Consumer,Ottawa,Ontario,Canada,2022-04-30
+C00838,Ella Patel,Female,36,Consumer,Fredericton,New Brunswick,Canada,2024-02-05
+C00839,Owen Khan,Male,53,Consumer,Laval,Quebec,Canada,2023-03-24
+C00840,Evelyn Wong,Male,43,Consumer,Burnaby,British Columbia,Canada,2024-04-22
+C00841,Hudson Johnson,Male,36,Consumer,Calgary,Alberta,Canada,2022-08-27
+C00842,Michael MacDonald,Female,18,Small Business,Regina,Saskatchewan,Canada,2024-03-28
+C00843,Harper Evans,Female,44,Small Business,Montreal,Quebec,Canada,2023-01-15
+C00844,Mason Harris,Male,49,Consumer,Vancouver,British Columbia,Canada,2024-02-11
+C00845,Charlotte Bélanger,Female,47,Small Business,Windsor,Ontario,Canada,2022-12-30
+C00846,Henry Nguyen,Non-binary,18,Consumer,Ottawa,Ontario,Canada,2024-08-02
+C00847,Jack Martin,Male,34,Small Business,Surrey,British Columbia,Canada,2024-12-03
+C00848,Ella Reid,Non-binary,25,Consumer,Regina,Saskatchewan,Canada,2024-01-23
+C00849,Ella Thomas,Female,32,Consumer,Quebec City,Quebec,Canada,2023-07-09
+C00850,Mason Bernard,Male,33,Corporate,London,Ontario,Canada,2024-07-07
+C00851,Riley Côté,Female,23,Small Business,Saskatoon,Saskatchewan,Canada,2023-07-31
+C00852,Riley Bélanger,Male,50,Small Business,Ottawa,Ontario,Canada,2024-12-11
+C00853,Wyatt Young,Male,35,Consumer,Guelph,Ontario,Canada,2022-08-07
+C00854,David Lefebvre,Female,68,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-11-08
+C00855,Sophia Wong,Female,46,Consumer,Victoria,British Columbia,Canada,2022-06-29
+C00856,Scarlett Hall,Female,31,Consumer,Laval,Quebec,Canada,2024-04-12
+C00857,Ella Hall,Male,24,Consumer,Saskatoon,Saskatchewan,Canada,2024-11-11
+C00858,Lucas Morgan,Female,33,Consumer,Fort McMurray,Alberta,Canada,2023-02-15
+C00859,Zoey Young,Female,18,Consumer,Halifax,Nova Scotia,Canada,2022-09-05
+C00860,Isabella Stewart,Female,35,Consumer,Saskatoon,Saskatchewan,Canada,2022-12-22
+C00861,William Nguyen,Male,18,Consumer,Fredericton,New Brunswick,Canada,2022-11-13
+C00862,Ethan Patel,Male,57,Consumer,Quebec City,Quebec,Canada,2022-10-19
+C00863,Harper Thomas,Female,46,Consumer,Saint John,New Brunswick,Canada,2024-08-15
+C00864,Henry Dubois,Non-binary,35,Consumer,St. John's,Newfoundland and Labrador,Canada,2022-11-06
+C00865,Riley Bélanger,Non-binary,38,Small Business,St. John's,Newfoundland and Labrador,Canada,2024-11-13
+C00866,Audrey Lefebvre,Non-binary,23,Consumer,Saskatoon,Saskatchewan,Canada,2024-01-18
+C00867,Michael Bouchard,Non-binary,29,Consumer,Saskatoon,Saskatchewan,Canada,2023-04-03
+C00868,Isaac MacDonald,Female,28,Consumer,Gatineau,Quebec,Canada,2023-01-01
+C00869,Amelia Chen,Male,43,Consumer,Victoria,British Columbia,Canada,2022-07-11
+C00870,Evelyn Bouchard,Non-binary,44,Consumer,Gatineau,Quebec,Canada,2024-06-05
+C00871,Noah Wilson,Female,21,Consumer,Moncton,New Brunswick,Canada,2022-10-23
+C00872,Lucas Bélanger,Male,36,Consumer,Fredericton,New Brunswick,Canada,2024-02-05
+C00873,Amelia Evans,Female,28,Consumer,Moncton,New Brunswick,Canada,2022-05-03
+C00874,Evelyn Turner,Male,42,Consumer,Saskatoon,Saskatchewan,Canada,2024-11-15
+C00875,Samuel Dubois,Male,50,Consumer,Kingston,Ontario,Canada,2022-01-20
+C00876,Audrey Wilson,Female,22,Small Business,Hamilton,Ontario,Canada,2023-03-11
+C00877,Julian Anderson,Non-binary,41,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-12-09
+C00878,Ethan Anderson,Female,66,Consumer,Brandon,Manitoba,Canada,2024-05-09
+C00879,Charlotte Brown,Non-binary,26,Consumer,Saskatoon,Saskatchewan,Canada,2022-06-20
+C00880,Mason MacDonald,Male,48,Consumer,Charlottetown,Prince Edward Island,Canada,2022-09-28
+C00881,Samuel Anderson,Non-binary,64,Consumer,Richmond,British Columbia,Canada,2023-12-08
+C00882,Harper Clarke,Female,63,Consumer,Montreal,Quebec,Canada,2022-05-16
+C00883,Jack Patel,Male,18,Small Business,Victoria,British Columbia,Canada,2023-08-01
+C00884,Samuel Patel,Non-binary,37,Consumer,Winnipeg,Manitoba,Canada,2022-09-05
+C00885,David Hughes,Male,18,Consumer,Charlottetown,Prince Edward Island,Canada,2024-01-26
+C00886,Sofia Fournier,Female,40,Consumer,Charlottetown,Prince Edward Island,Canada,2023-08-03
+C00887,Nathan Young,Female,29,Small Business,Winnipeg,Manitoba,Canada,2024-12-20
+C00888,Samuel Thomas,Non-binary,39,Consumer,Longueuil,Quebec,Canada,2023-02-12
+C00889,Violet Roy,Non-binary,34,Consumer,Red Deer,Alberta,Canada,2022-11-17
+C00890,Olivia Hall,Male,44,Consumer,Burnaby,British Columbia,Canada,2022-09-11
+C00891,Alexander MacDonald,Male,54,Consumer,Fort McMurray,Alberta,Canada,2022-01-27
+C00892,Samuel Wong,Female,22,Small Business,Red Deer,Alberta,Canada,2022-12-05
+C00893,Violet Thomas,Male,30,Consumer,Saskatoon,Saskatchewan,Canada,2024-09-08
+C00894,James Lee,Male,38,Consumer,St. John's,Newfoundland and Labrador,Canada,2022-10-05
+C00895,Avery Evans,Male,37,Consumer,Fredericton,New Brunswick,Canada,2022-03-30
+C00896,Grace Campbell,Non-binary,33,Consumer,Regina,Saskatchewan,Canada,2023-05-13
+C00897,Alexander Dubois,Male,27,Consumer,Burnaby,British Columbia,Canada,2022-03-18
+C00898,Ella Gagnon,Non-binary,51,Small Business,St. John's,Newfoundland and Labrador,Canada,2023-06-11
+C00899,Carter Hughes,Non-binary,61,Consumer,Red Deer,Alberta,Canada,2022-08-30
+C00900,Audrey Scott,Non-binary,32,Consumer,Sherbrooke,Quebec,Canada,2023-02-11
+C00901,Grace Harris,Female,29,Consumer,Windsor,Ontario,Canada,2022-05-14
+C00902,Hudson Fournier,Male,22,Consumer,Hamilton,Ontario,Canada,2022-06-14
+C00903,Sophia Hughes,Female,34,Consumer,Surrey,British Columbia,Canada,2024-09-20
+C00904,Hannah Hughes,Female,47,Consumer,Montreal,Quebec,Canada,2023-05-07
+C00905,Benjamin Singh,Male,53,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-09-18
+C00906,Alexander Bernard,Male,41,Small Business,Brandon,Manitoba,Canada,2023-07-31
+C00907,Emma Nguyen,Male,36,Consumer,Montreal,Quebec,Canada,2022-01-02
+C00908,Zoey Roy,Non-binary,36,Corporate,Richmond,British Columbia,Canada,2024-05-29
+C00909,Abigail Campbell,Non-binary,40,Consumer,Fort McMurray,Alberta,Canada,2022-04-07
+C00910,Aria Roy,Female,32,Small Business,Sydney,Nova Scotia,Canada,2022-02-07
+C00911,Jack Tremblay,Female,39,Consumer,Gatineau,Quebec,Canada,2024-08-17
+C00912,William Patel,Non-binary,25,Consumer,Saint John,New Brunswick,Canada,2024-03-16
+C00913,James Evans,Female,18,Small Business,Fredericton,New Brunswick,Canada,2022-03-01
+C00914,Scarlett Brown,Female,43,Consumer,Charlottetown,Prince Edward Island,Canada,2022-12-11
+C00915,William Turner,Female,30,Small Business,Corner Brook,Newfoundland and Labrador,Canada,2024-05-05
+C00916,Sofia Reid,Male,40,Small Business,London,Ontario,Canada,2024-04-19
+C00917,Hudson Tremblay,Female,45,Consumer,Lethbridge,Alberta,Canada,2023-09-18
+C00918,Zoey Côté,Female,40,Consumer,Brandon,Manitoba,Canada,2024-03-14
+C00919,Ethan Wilson,Female,27,Consumer,Regina,Saskatchewan,Canada,2022-10-19
+C00920,Avery Bouchard,Non-binary,68,Small Business,Kingston,Ontario,Canada,2024-03-16
+C00921,Sophia Bernard,Female,18,Consumer,Edmonton,Alberta,Canada,2024-11-12
+C00922,Mia Hughes,Male,36,Consumer,Saskatoon,Saskatchewan,Canada,2024-10-18
+C00923,Owen Stewart,Male,46,Consumer,Fredericton,New Brunswick,Canada,2024-09-16
+C00924,Evelyn Patel,Female,63,Consumer,Charlottetown,Prince Edward Island,Canada,2022-08-26
+C00925,Scarlett Bélanger,Female,30,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-07-03
+C00926,David Bouchard,Male,53,Corporate,Sydney,Nova Scotia,Canada,2023-03-28
+C00927,Leo Hall,Non-binary,48,Corporate,Charlottetown,Prince Edward Island,Canada,2022-05-23
+C00928,William Turner,Female,18,Consumer,Winnipeg,Manitoba,Canada,2023-08-12
+C00929,Liam Fournier,Female,38,Consumer,Charlottetown,Prince Edward Island,Canada,2024-07-18
+C00930,Evelyn Patel,Non-binary,45,Small Business,Halifax,Nova Scotia,Canada,2022-06-16
+C00931,Charlotte Wong,Non-binary,78,Consumer,Toronto,Ontario,Canada,2024-04-17
+C00932,Jack Brown,Non-binary,42,Consumer,Laval,Quebec,Canada,2022-06-01
+C00933,Mason Reid,Non-binary,18,Small Business,Victoria,British Columbia,Canada,2023-02-28
+C00934,Mia Young,Male,51,Consumer,Saskatoon,Saskatchewan,Canada,2024-08-27
+C00935,Isabella Turner,Non-binary,24,Consumer,Brandon,Manitoba,Canada,2022-10-20
+C00936,Joseph MacDonald,Female,52,Consumer,Brandon,Manitoba,Canada,2023-04-30
+C00937,Avery Côté,Non-binary,18,Small Business,Lethbridge,Alberta,Canada,2023-07-09
+C00938,William Morgan,Male,29,Small Business,Kitchener,Ontario,Canada,2023-10-18
+C00939,Owen Bélanger,Non-binary,42,Consumer,Charlottetown,Prince Edward Island,Canada,2023-07-23
+C00940,Alexander Dubois,Non-binary,63,Small Business,Saskatoon,Saskatchewan,Canada,2022-10-27
+C00941,Wyatt Clarke,Female,33,Small Business,Fort McMurray,Alberta,Canada,2023-01-18
+C00942,Daniel Martin,Male,38,Consumer,Kingston,Ontario,Canada,2022-05-22
+C00943,James Bouchard,Male,46,Corporate,Brandon,Manitoba,Canada,2024-10-23
+C00944,Zoey Taylor,Male,44,Consumer,Quebec City,Quebec,Canada,2022-08-28
+C00945,Olivia Clarke,Non-binary,18,Small Business,Charlottetown,Prince Edward Island,Canada,2024-09-19
+C00946,Riley Roy,Non-binary,37,Consumer,Surrey,British Columbia,Canada,2022-06-25
+C00947,Henry Morgan,Non-binary,30,Consumer,Sydney,Nova Scotia,Canada,2024-05-11
+C00948,Ethan Hughes,Non-binary,36,Consumer,Kingston,Ontario,Canada,2024-07-09
+C00949,Mia Bouchard,Female,40,Small Business,St. John's,Newfoundland and Labrador,Canada,2024-08-26
+C00950,Aria Turner,Male,18,Consumer,Fredericton,New Brunswick,Canada,2024-03-24
+C00951,Amelia Campbell,Male,70,Consumer,Montreal,Quebec,Canada,2022-06-10
+C00952,Alexander Tremblay,Female,52,Consumer,Sherbrooke,Quebec,Canada,2023-12-19
+C00953,Lucas Lefebvre,Non-binary,52,Consumer,Fredericton,New Brunswick,Canada,2023-09-05
+C00954,Avery Scott,Male,53,Corporate,Brandon,Manitoba,Canada,2022-02-24
+C00955,Alexander Taylor,Non-binary,44,Small Business,Saskatoon,Saskatchewan,Canada,2022-06-29
+C00956,Julian Harris,Non-binary,41,Consumer,Saint John,New Brunswick,Canada,2022-08-07
+C00957,Olivia MacDonald,Female,39,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-02-01
+C00958,Wyatt Gagnon,Non-binary,42,Small Business,Guelph,Ontario,Canada,2023-04-14
+C00959,Lily Lam,Male,51,Consumer,Burnaby,British Columbia,Canada,2024-01-30
+C00960,Sophia Dubois,Non-binary,18,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-01-09
+C00961,William MacDonald,Non-binary,49,Consumer,London,Ontario,Canada,2024-11-05
+C00962,Ella Miller,Female,28,Consumer,Gatineau,Quebec,Canada,2023-11-11
+C00963,Benjamin Bouchard,Male,31,Corporate,St. John's,Newfoundland and Labrador,Canada,2022-01-20
+C00964,Chloe Reid,Non-binary,36,Consumer,Kelowna,British Columbia,Canada,2022-05-27
+C00965,Michael Fournier,Female,46,Consumer,St. John's,Newfoundland and Labrador,Canada,2023-05-06
+C00966,Nathan Thomas,Female,18,Corporate,Fort McMurray,Alberta,Canada,2024-08-02
+C00967,Noah Morgan,Non-binary,36,Small Business,Fort McMurray,Alberta,Canada,2024-07-06
+C00968,Grace Singh,Non-binary,40,Consumer,Richmond,British Columbia,Canada,2022-01-28
+C00969,David Tremblay,Male,54,Consumer,Brandon,Manitoba,Canada,2024-10-28
+C00970,James Clarke,Female,43,Consumer,Moncton,New Brunswick,Canada,2024-01-30
+C00971,Sophia Martin,Male,48,Small Business,Richmond,British Columbia,Canada,2024-09-05
+C00972,Isabella Reid,Male,40,Consumer,Victoria,British Columbia,Canada,2022-02-19
+C00973,Julian Dubois,Female,52,Corporate,Longueuil,Quebec,Canada,2023-09-10
+C00974,Grace Walker,Non-binary,44,Consumer,Halifax,Nova Scotia,Canada,2023-12-04
+C00975,Chloe Martin,Male,48,Small Business,Sherbrooke,Quebec,Canada,2022-09-29
+C00976,Nora Clarke,Female,23,Consumer,Richmond,British Columbia,Canada,2022-07-27
+C00977,Amelia Reid,Male,41,Consumer,Edmonton,Alberta,Canada,2022-02-28
+C00978,James Wilson,Male,31,Consumer,Sydney,Nova Scotia,Canada,2024-10-13
+C00979,Evelyn Wilson,Non-binary,35,Consumer,Quebec City,Quebec,Canada,2024-01-22
+C00980,Benjamin Harris,Male,50,Consumer,Winnipeg,Manitoba,Canada,2024-03-31
+C00981,Samuel Bélanger,Male,43,Small Business,Charlottetown,Prince Edward Island,Canada,2022-09-10
+C00982,Joseph Khan,Male,31,Consumer,Fredericton,New Brunswick,Canada,2022-08-28
+C00983,Owen Singh,Non-binary,44,Consumer,Laval,Quebec,Canada,2024-01-01
+C00984,Isaac Young,Female,57,Consumer,Regina,Saskatchewan,Canada,2023-07-13
+C00985,Abigail Taylor,Non-binary,45,Consumer,Halifax,Nova Scotia,Canada,2024-09-19
+C00986,Grace Lam,Non-binary,54,Consumer,Saint John,New Brunswick,Canada,2023-06-08
+C00987,Owen Wong,Male,18,Consumer,Kelowna,British Columbia,Canada,2022-04-14
+C00988,Riley Martin,Non-binary,49,Consumer,Regina,Saskatchewan,Canada,2022-01-18
+C00989,Alexander Harris,Non-binary,40,Consumer,Saskatoon,Saskatchewan,Canada,2023-04-22
+C00990,Aria Fournier,Male,30,Consumer,Winnipeg,Manitoba,Canada,2022-02-01
+C00991,Ethan Tremblay,Non-binary,58,Consumer,Saint John,New Brunswick,Canada,2024-12-28
+C00992,Chloe Khan,Male,28,Consumer,Kingston,Ontario,Canada,2023-12-30
+C00993,Aria Reid,Male,46,Consumer,Moncton,New Brunswick,Canada,2022-11-16
+C00994,Abigail Anderson,Male,36,Consumer,Charlottetown,Prince Edward Island,Canada,2023-05-05
+C00995,Noah Thomas,Male,56,Consumer,St. John's,Newfoundland and Labrador,Canada,2022-03-01
+C00996,Harper Campbell,Male,51,Small Business,Richmond,British Columbia,Canada,2022-10-25
+C00997,Michael Tremblay,Female,37,Consumer,Hamilton,Ontario,Canada,2024-02-11
+C00998,Charlotte Scott,Female,52,Consumer,Sydney,Nova Scotia,Canada,2024-11-23
+C00999,Ava Johnson,Female,44,Consumer,Quebec City,Quebec,Canada,2024-10-25
+C01000,Scarlett Côté,Female,30,Small Business,Sydney,Nova Scotia,Canada,2022-11-29
+C01001,Sophia Dubois,Non-binary,72,Consumer,Winnipeg,Manitoba,Canada,2023-06-07
+C01002,Sophia Roy,Female,71,Consumer,Kingston,Ontario,Canada,2022-12-11
+C01003,Hannah Wilson,Female,24,Consumer,Quebec City,Quebec,Canada,2022-12-04
+C01004,Benjamin Walker,Male,32,Consumer,Red Deer,Alberta,Canada,2022-06-08
+C01005,Ava Miller,Male,28,Consumer,Brandon,Manitoba,Canada,2023-10-02
+C01006,James Bélanger,Female,44,Corporate,Victoria,British Columbia,Canada,2024-12-25
+C01007,Mia Singh,Male,43,Consumer,Guelph,Ontario,Canada,2024-01-04
+C01008,Sofia Evans,Non-binary,20,Small Business,Fredericton,New Brunswick,Canada,2023-09-27
+C01009,Nathan Martin,Male,18,Consumer,Kingston,Ontario,Canada,2022-04-11
+C01010,Wyatt Wong,Non-binary,18,Corporate,Hamilton,Ontario,Canada,2023-05-01
+C01011,Chloe Dubois,Non-binary,32,Consumer,Toronto,Ontario,Canada,2023-06-13
+C01012,Ella Clarke,Non-binary,39,Consumer,Charlottetown,Prince Edward Island,Canada,2023-09-24
+C01013,Hudson Clarke,Male,34,Corporate,Charlottetown,Prince Edward Island,Canada,2024-09-25
+C01014,Alexander Young,Female,57,Consumer,Fort McMurray,Alberta,Canada,2024-04-29
+C01015,Olivia Harris,Non-binary,43,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-05-07
+C01016,Zoey Campbell,Female,38,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-09-07
+C01017,Harper Nguyen,Male,39,Corporate,Hamilton,Ontario,Canada,2022-07-09
+C01018,Scarlett Nguyen,Non-binary,76,Consumer,Brandon,Manitoba,Canada,2024-09-10
+C01019,Hannah Martin,Female,44,Consumer,Vancouver,British Columbia,Canada,2023-02-02
+C01020,Michael Khan,Female,33,Consumer,Sydney,Nova Scotia,Canada,2023-12-26
+C01021,Hudson Anderson,Female,23,Small Business,Saskatoon,Saskatchewan,Canada,2023-08-10
+C01022,Liam Lefebvre,Non-binary,20,Consumer,Longueuil,Quebec,Canada,2022-10-16
+C01023,Henry Khan,Male,42,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-11-05
+C01024,Audrey Lam,Non-binary,43,Small Business,Brandon,Manitoba,Canada,2024-05-17
+C01025,Riley Bouchard,Male,33,Consumer,Moncton,New Brunswick,Canada,2024-02-27
+C01026,Liam Singh,Non-binary,46,Consumer,Charlottetown,Prince Edward Island,Canada,2022-08-04
+C01027,Daniel Young,Female,71,Consumer,St. John's,Newfoundland and Labrador,Canada,2024-02-15
+C01028,David Bélanger,Female,22,Consumer,London,Ontario,Canada,2022-09-21
+C01029,Grace Walker,Male,35,Small Business,Longueuil,Quebec,Canada,2024-09-29
+C01030,Jack Campbell,Non-binary,18,Consumer,Richmond,British Columbia,Canada,2024-05-09
+C01031,Mateo Gagnon,Non-binary,33,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-06-27
+C01032,Abigail Wilson,Female,33,Small Business,Lethbridge,Alberta,Canada,2024-12-16
+C01033,James Anderson,Male,46,Small Business,Edmonton,Alberta,Canada,2024-11-04
+C01034,Zoey Scott,Female,39,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-04-13
+C01035,Amelia Johnson,Male,30,Small Business,Saskatoon,Saskatchewan,Canada,2022-12-13
+C01036,Violet Young,Female,50,Consumer,Fredericton,New Brunswick,Canada,2023-05-06
+C01037,Benjamin Anderson,Female,18,Consumer,Sherbrooke,Quebec,Canada,2024-01-09
+C01038,Alexander Wong,Female,33,Small Business,Saint John,New Brunswick,Canada,2023-10-09
+C01039,Chloe Khan,Non-binary,63,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-05-25
+C01040,Mateo Harris,Male,59,Consumer,Laval,Quebec,Canada,2022-02-27
+C01041,Michael Gagnon,Female,50,Consumer,Brandon,Manitoba,Canada,2024-07-14
+C01042,Michael Lam,Non-binary,18,Consumer,Kingston,Ontario,Canada,2024-11-11
+C01043,Amelia Turner,Female,24,Corporate,Fredericton,New Brunswick,Canada,2023-11-14
+C01044,Ella Lam,Non-binary,43,Consumer,Fredericton,New Brunswick,Canada,2022-01-27
+C01045,Benjamin Reid,Non-binary,36,Consumer,Saskatoon,Saskatchewan,Canada,2022-10-06
+C01046,Julian Côté,Male,42,Consumer,Fort McMurray,Alberta,Canada,2024-08-04
+C01047,Lucas Clarke,Female,31,Consumer,Quebec City,Quebec,Canada,2022-05-30
+C01048,Owen Morgan,Non-binary,50,Consumer,Calgary,Alberta,Canada,2022-08-23
+C01049,Nora Bernard,Female,36,Corporate,Charlottetown,Prince Edward Island,Canada,2022-03-16
+C01050,Harper Roy,Male,41,Consumer,Brandon,Manitoba,Canada,2022-05-09
+C01051,Nathan Martin,Non-binary,26,Consumer,Charlottetown,Prince Edward Island,Canada,2023-07-15
+C01052,Olivia Lam,Female,20,Corporate,Calgary,Alberta,Canada,2022-07-23
+C01053,Amelia Gagnon,Male,23,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-03-21
+C01054,Nora Young,Male,49,Corporate,Ottawa,Ontario,Canada,2024-11-10
+C01055,Julian Miller,Female,42,Small Business,Winnipeg,Manitoba,Canada,2024-06-21
+C01056,Scarlett Thomas,Non-binary,56,Consumer,Toronto,Ontario,Canada,2024-06-07
+C01057,Scarlett Evans,Non-binary,37,Consumer,Surrey,British Columbia,Canada,2022-10-21
+C01058,Hudson Thomas,Non-binary,39,Consumer,Regina,Saskatchewan,Canada,2023-11-11
+C01059,Leo Singh,Female,22,Consumer,Vancouver,British Columbia,Canada,2022-04-23
+C01060,Lily Gagnon,Female,37,Consumer,Charlottetown,Prince Edward Island,Canada,2024-11-14
+C01061,Aria Lefebvre,Male,37,Consumer,Toronto,Ontario,Canada,2022-09-10
+C01062,Isabella Miller,Female,39,Consumer,London,Ontario,Canada,2022-08-16
+C01063,Daniel Hughes,Female,23,Small Business,Charlottetown,Prince Edward Island,Canada,2023-07-28
+C01064,Scarlett Campbell,Male,39,Small Business,Calgary,Alberta,Canada,2022-01-18
+C01065,David Morgan,Female,42,Corporate,Charlottetown,Prince Edward Island,Canada,2022-02-14
+C01066,Benjamin Patel,Male,39,Consumer,Saskatoon,Saskatchewan,Canada,2024-03-14
+C01067,Abigail Nguyen,Male,40,Small Business,Sherbrooke,Quebec,Canada,2022-12-28
+C01068,Audrey Hall,Female,58,Consumer,Surrey,British Columbia,Canada,2023-05-31
+C01069,Scarlett Bouchard,Female,37,Consumer,Halifax,Nova Scotia,Canada,2024-10-18
+C01070,Lily Chen,Male,26,Consumer,Richmond,British Columbia,Canada,2024-04-16
+C01071,Emma Bernard,Non-binary,41,Consumer,Ottawa,Ontario,Canada,2023-01-18
+C01072,Sofia Côté,Non-binary,43,Consumer,Edmonton,Alberta,Canada,2023-10-02
+C01073,Scarlett Anderson,Non-binary,60,Consumer,Lethbridge,Alberta,Canada,2023-07-25
+C01074,Olivia MacDonald,Non-binary,34,Consumer,Lethbridge,Alberta,Canada,2024-08-21
+C01075,Sophia Reid,Non-binary,46,Consumer,Regina,Saskatchewan,Canada,2024-10-19
+C01076,Isabella Khan,Non-binary,56,Consumer,Calgary,Alberta,Canada,2024-09-04
+C01077,Avery Clarke,Non-binary,45,Small Business,Quebec City,Quebec,Canada,2024-04-04
+C01078,Sophia Patel,Female,37,Consumer,Winnipeg,Manitoba,Canada,2022-04-17
+C01079,Michael Morgan,Non-binary,56,Consumer,Calgary,Alberta,Canada,2023-12-21
+C01080,Wyatt Lefebvre,Non-binary,46,Small Business,Winnipeg,Manitoba,Canada,2022-02-12
+C01081,Lily Bélanger,Female,47,Consumer,Saint John,New Brunswick,Canada,2024-08-30
+C01082,Ethan Tremblay,Non-binary,41,Consumer,Ottawa,Ontario,Canada,2023-12-21
+C01083,Ava Bouchard,Female,36,Consumer,Charlottetown,Prince Edward Island,Canada,2022-10-04
+C01084,Daniel Wilson,Non-binary,43,Small Business,Sydney,Nova Scotia,Canada,2022-10-24
+C01085,Mason Hall,Male,33,Consumer,Vancouver,British Columbia,Canada,2023-04-11
+C01086,Leo Miller,Female,33,Consumer,Richmond,British Columbia,Canada,2024-05-08
+C01087,Henry Gagnon,Female,61,Small Business,Longueuil,Quebec,Canada,2024-09-19
+C01088,James Martin,Female,52,Consumer,Saskatoon,Saskatchewan,Canada,2023-01-18
+C01089,Evelyn Harris,Male,18,Small Business,Corner Brook,Newfoundland and Labrador,Canada,2023-03-28
+C01090,Riley Lam,Non-binary,19,Consumer,St. John's,Newfoundland and Labrador,Canada,2024-11-17
+C01091,Joseph Campbell,Female,28,Consumer,St. John's,Newfoundland and Labrador,Canada,2024-03-13
+C01092,Zoey Khan,Non-binary,50,Consumer,St. John's,Newfoundland and Labrador,Canada,2024-12-03
+C01093,Samuel Miller,Non-binary,45,Consumer,Kitchener,Ontario,Canada,2023-01-31
+C01094,Harper Gagnon,Non-binary,44,Consumer,Regina,Saskatchewan,Canada,2024-06-16
+C01095,Isabella Morgan,Non-binary,37,Consumer,Brandon,Manitoba,Canada,2022-09-28
+C01096,Avery Chen,Male,25,Consumer,Lethbridge,Alberta,Canada,2024-01-07
+C01097,Daniel Scott,Male,28,Consumer,Saskatoon,Saskatchewan,Canada,2024-07-17
+C01098,James Miller,Non-binary,47,Small Business,Brandon,Manitoba,Canada,2023-02-01
+C01099,Isaac Tremblay,Male,44,Consumer,Regina,Saskatchewan,Canada,2022-02-11
+C01100,Samuel Chen,Male,53,Corporate,Corner Brook,Newfoundland and Labrador,Canada,2023-11-29
+C01101,James Campbell,Male,63,Consumer,Burnaby,British Columbia,Canada,2024-05-22
+C01102,William Thomas,Female,60,Consumer,Moncton,New Brunswick,Canada,2022-11-19
+C01103,Hannah Brown,Male,50,Small Business,Saint John,New Brunswick,Canada,2023-02-16
+C01104,Samuel Singh,Male,56,Consumer,Richmond,British Columbia,Canada,2023-04-10
+C01105,Mason Taylor,Male,30,Consumer,Red Deer,Alberta,Canada,2023-01-01
+C01106,Liam Dubois,Female,45,Consumer,Edmonton,Alberta,Canada,2023-11-24
+C01107,Audrey Thomas,Non-binary,34,Consumer,Brandon,Manitoba,Canada,2024-06-26
+C01108,Owen Wong,Non-binary,47,Corporate,Windsor,Ontario,Canada,2022-09-02
+C01109,Michael Dubois,Male,28,Small Business,Saskatoon,Saskatchewan,Canada,2023-09-26
+C01110,Mateo Bouchard,Male,28,Consumer,London,Ontario,Canada,2023-03-11
+C01111,Amelia Tremblay,Non-binary,19,Consumer,Charlottetown,Prince Edward Island,Canada,2022-03-08
+C01112,Jack Johnson,Female,47,Consumer,Edmonton,Alberta,Canada,2024-01-30
+C01113,Joseph Harris,Non-binary,47,Small Business,Montreal,Quebec,Canada,2022-05-06
+C01114,Nathan Bouchard,Non-binary,62,Consumer,Charlottetown,Prince Edward Island,Canada,2022-03-27
+C01115,Owen Turner,Female,29,Consumer,Saint John,New Brunswick,Canada,2022-06-26
+C01116,Samuel Thomas,Female,27,Small Business,Laval,Quebec,Canada,2023-07-01
+C01117,Avery Hughes,Non-binary,31,Small Business,Red Deer,Alberta,Canada,2022-11-14
+C01118,Lily Hughes,Male,52,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2024-06-17
+C01119,Harper Bélanger,Non-binary,50,Consumer,Toronto,Ontario,Canada,2023-11-23
+C01120,Wyatt Young,Male,30,Consumer,Charlottetown,Prince Edward Island,Canada,2024-06-02
+C01121,Audrey Walker,Male,39,Consumer,Halifax,Nova Scotia,Canada,2024-02-18
+C01122,William Anderson,Non-binary,32,Consumer,Laval,Quebec,Canada,2023-04-04
+C01123,Grace Lee,Non-binary,44,Consumer,Montreal,Quebec,Canada,2024-05-12
+C01124,Mia Thomas,Female,49,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-09-23
+C01125,Jack Taylor,Non-binary,28,Consumer,Vancouver,British Columbia,Canada,2022-04-08
+C01126,Owen Stewart,Male,22,Consumer,Winnipeg,Manitoba,Canada,2024-05-21
+C01127,James Young,Male,40,Small Business,Charlottetown,Prince Edward Island,Canada,2023-02-23
+C01128,Jack Nguyen,Non-binary,20,Corporate,Saskatoon,Saskatchewan,Canada,2023-01-05
+C01129,Ella Reid,Non-binary,28,Consumer,Saskatoon,Saskatchewan,Canada,2024-11-06
+C01130,Abigail Wilson,Male,35,Consumer,Saskatoon,Saskatchewan,Canada,2022-05-27
+C01131,Avery Martin,Female,29,Corporate,Fort McMurray,Alberta,Canada,2022-07-25
+C01132,David Thomas,Male,31,Consumer,Richmond,British Columbia,Canada,2023-08-16
+C01133,Grace Wilson,Male,46,Small Business,Toronto,Ontario,Canada,2023-05-04
+C01134,Michael MacDonald,Male,47,Consumer,Guelph,Ontario,Canada,2024-04-01
+C01135,Leo Bélanger,Female,52,Consumer,Longueuil,Quebec,Canada,2024-02-17
+C01136,Mia Dubois,Male,43,Small Business,St. John's,Newfoundland and Labrador,Canada,2024-05-11
+C01137,Isaac Evans,Female,37,Consumer,Regina,Saskatchewan,Canada,2024-08-06
+C01138,Aria Reid,Female,33,Consumer,Charlottetown,Prince Edward Island,Canada,2024-05-20
+C01139,Ethan Khan,Male,49,Consumer,Fort McMurray,Alberta,Canada,2023-03-09
+C01140,Zoey Lam,Female,46,Consumer,Saskatoon,Saskatchewan,Canada,2023-07-13
+C01141,Mateo Thomas,Male,36,Consumer,Vancouver,British Columbia,Canada,2024-07-09
+C01142,Riley Johnson,Female,40,Consumer,Hamilton,Ontario,Canada,2023-05-22
+C01143,Harper Patel,Female,22,Small Business,St. John's,Newfoundland and Labrador,Canada,2022-06-17
+C01144,Noah Evans,Female,47,Consumer,Fredericton,New Brunswick,Canada,2024-01-16
+C01145,Isabella Dubois,Female,35,Consumer,Saskatoon,Saskatchewan,Canada,2023-04-23
+C01146,Ethan Campbell,Male,32,Consumer,Montreal,Quebec,Canada,2024-12-02
+C01147,Zoey Gagnon,Female,33,Consumer,Brandon,Manitoba,Canada,2023-09-25
+C01148,Evelyn Nguyen,Female,32,Corporate,Fredericton,New Brunswick,Canada,2023-10-02
+C01149,Harper Fournier,Female,24,Small Business,Winnipeg,Manitoba,Canada,2023-11-16
+C01150,Evelyn Nguyen,Non-binary,38,Consumer,Charlottetown,Prince Edward Island,Canada,2023-12-28
+C01151,Michael Reid,Male,58,Consumer,Moncton,New Brunswick,Canada,2022-10-20
+C01152,James Khan,Male,20,Small Business,St. John's,Newfoundland and Labrador,Canada,2022-08-13
+C01153,Ethan Scott,Male,37,Consumer,Quebec City,Quebec,Canada,2024-07-22
+C01154,David Thomas,Male,47,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2022-05-05
+C01155,Noah Evans,Non-binary,27,Small Business,Regina,Saskatchewan,Canada,2023-06-09
+C01156,Amelia Wilson,Male,23,Consumer,Halifax,Nova Scotia,Canada,2023-05-05
+C01157,Sofia Singh,Male,36,Small Business,Fredericton,New Brunswick,Canada,2022-05-15
+C01158,Amelia Côté,Non-binary,18,Small Business,Saskatoon,Saskatchewan,Canada,2023-10-06
+C01159,Henry Khan,Male,43,Consumer,Saint John,New Brunswick,Canada,2024-04-21
+C01160,Michael Harris,Non-binary,47,Small Business,Regina,Saskatchewan,Canada,2024-09-05
+C01161,Olivia Scott,Male,18,Small Business,Kelowna,British Columbia,Canada,2024-12-20
+C01162,Aria Walker,Non-binary,30,Consumer,Richmond,British Columbia,Canada,2023-12-19
+C01163,Audrey Wilson,Male,25,Consumer,Longueuil,Quebec,Canada,2022-02-10
+C01164,Scarlett Turner,Male,40,Small Business,Halifax,Nova Scotia,Canada,2023-09-07
+C01165,William Singh,Male,62,Consumer,Surrey,British Columbia,Canada,2024-09-14
+C01166,James Miller,Male,18,Consumer,Quebec City,Quebec,Canada,2023-10-06
+C01167,Hudson Lam,Female,35,Consumer,Charlottetown,Prince Edward Island,Canada,2022-11-07
+C01168,David Morgan,Male,36,Small Business,London,Ontario,Canada,2022-04-04
+C01169,David Chen,Non-binary,60,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-07-30
+C01170,Amelia Scott,Non-binary,32,Small Business,Fort McMurray,Alberta,Canada,2023-09-12
+C01171,Mia Taylor,Male,43,Consumer,Longueuil,Quebec,Canada,2022-04-10
+C01172,Mason Scott,Female,28,Consumer,Montreal,Quebec,Canada,2022-03-13
+C01173,Nathan Roy,Female,49,Consumer,Laval,Quebec,Canada,2022-06-25
+C01174,Henry Nguyen,Male,30,Consumer,Winnipeg,Manitoba,Canada,2024-03-06
+C01175,Evelyn Turner,Female,38,Consumer,Halifax,Nova Scotia,Canada,2023-09-29
+C01176,Mateo MacDonald,Female,46,Consumer,Gatineau,Quebec,Canada,2024-04-22
+C01177,Isaac Lefebvre,Female,35,Corporate,Red Deer,Alberta,Canada,2022-08-15
+C01178,Liam Bouchard,Male,49,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-09-19
+C01179,James Scott,Male,47,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-04-04
+C01180,Nora Miller,Non-binary,63,Small Business,Saint John,New Brunswick,Canada,2022-12-04
+C01181,Mia Clarke,Male,39,Consumer,London,Ontario,Canada,2022-07-16
+C01182,Grace Lam,Female,23,Corporate,St. John's,Newfoundland and Labrador,Canada,2024-10-02
+C01183,Sophia Thomas,Male,29,Corporate,Kitchener,Ontario,Canada,2024-04-02
+C01184,Carter Lefebvre,Non-binary,24,Consumer,Lethbridge,Alberta,Canada,2024-07-16
+C01185,Ethan Scott,Male,24,Consumer,Edmonton,Alberta,Canada,2023-12-29
+C01186,Riley Wong,Non-binary,50,Consumer,Winnipeg,Manitoba,Canada,2022-04-16
+C01187,Michael Hall,Non-binary,42,Consumer,Charlottetown,Prince Edward Island,Canada,2024-08-07
+C01188,Abigail Patel,Female,39,Consumer,Laval,Quebec,Canada,2022-08-29
+C01189,Liam Bernard,Male,46,Small Business,Vancouver,British Columbia,Canada,2023-04-30
+C01190,Sophia Patel,Male,50,Consumer,Saskatoon,Saskatchewan,Canada,2022-10-26
+C01191,Zoey Wong,Non-binary,40,Consumer,Halifax,Nova Scotia,Canada,2023-01-15
+C01192,Ava Stewart,Male,19,Consumer,Saint John,New Brunswick,Canada,2023-10-31
+C01193,William Miller,Female,19,Consumer,Red Deer,Alberta,Canada,2022-08-26
+C01194,Joseph Young,Male,56,Consumer,Corner Brook,Newfoundland and Labrador,Canada,2023-09-04
+C01195,Ava Harris,Female,29,Consumer,Winnipeg,Manitoba,Canada,2022-08-16
+C01196,Charlotte Hall,Male,51,Small Business,Brandon,Manitoba,Canada,2024-05-21
+C01197,Charlotte Walker,Non-binary,25,Consumer,Surrey,British Columbia,Canada,2023-07-19
+C01198,Isabella Gagnon,Non-binary,45,Consumer,Montreal,Quebec,Canada,2024-02-27
+C01199,Zoey Hall,Non-binary,37,Small Business,Brandon,Manitoba,Canada,2022-01-16
+C01200,Hannah Patel,Female,27,Corporate,Gatineau,Quebec,Canada,2022-07-18
