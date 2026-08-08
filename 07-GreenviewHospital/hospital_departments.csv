@@ -1,0 +1,11 @@
+DepartmentID,DepartmentName,DepartmentShort
+DEP01,Emergency,ED
+DEP02,Internal Medicine,Med
+DEP03,Surgery,Surg
+DEP04,Cardiology,Cardio
+DEP05,Orthopedics,Ortho
+DEP06,Pediatrics,Peds
+DEP07,Obstetrics,OB
+DEP08,Oncology,Onc
+DEP09,ICU,ICU
+DEP10,Neurology,Neuro

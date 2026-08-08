@@ -1,0 +1,44 @@
+Total Admissions =
+COUNT(hospital_admissions[AdmissionID])
+
+Unique Patients =
+DISTINCTCOUNT(hospital_admissions[PatientID])
+
+Average LOS (Days) =
+AVERAGE(hospital_admissions[LengthOfStayDays])
+
+
+Emergency Admissions =
+CALCULATE(
+    [Total Admissions],
+    hospital_admissions[AdmissionType] = "Emergency"
+)
+
+Emergency % =
+DIVIDE([Emergency Admissions], [Total Admissions])
+
+
+In-Hospital Deaths =
+CALCULATE(
+    [Total Admissions],
+    hospital_admissions[DischargeDisposition] = "Expired"
+)
+
+Mortality % =
+DIVIDE([In-Hospital Deaths], [Total Admissions])
+
+Observation Visits =
+CALCULATE(
+    [Total Admissions],
+    hospital_admissions[BedType] = "Observation"
+)
+
+
+Avg Admissions per Patient =
+DIVIDE([Total Admissions], [Unique Patients])
+
+
+
+
+
+
