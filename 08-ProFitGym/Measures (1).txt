@@ -1,0 +1,17 @@
+Total Check-ins = COUNT(fitness_checkins[CheckInID])
+
+Average Visit Duration =
+AVERAGE(fitness_checkins[DurationMinutes])
+
+Check-ins per Member =
+DIVIDE([Total Check-ins], DISTINCTCOUNT(fitness_members[MemberID]))
+
+Active Members =
+CALCULATE(
+    DISTINCTCOUNT(fitness_members[MemberID]),
+    fitness_members[Status] = "Active"
+)
+
+
+
+
