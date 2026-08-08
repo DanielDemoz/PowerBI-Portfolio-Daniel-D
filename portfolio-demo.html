@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Demoz - Power BI Analytics Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1f4e79 0%, #2d5a96 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1f4e79 0%, #2d5a96 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 16px;
+            opacity: 0.95;
+            margin-bottom: 10px;
+        }
+
+        header .subtitle {
+            font-size: 14px;
+            opacity: 0.85;
+        }
+
+        .slideshow-container {
+            position: relative;
+            background: #f8f9fa;
+            padding: 30px 20px;
+        }
+
+        .slide {
+            display: none;
+            text-align: center;
+            animation: fadeIn 0.5s;
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .slide-image {
+            max-width: 100%;
+            height: auto;
+            max-height: 500px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .slide-info {
+            text-align: left;
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .slide-category {
+            display: inline-block;
+            background: #1f4e79;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .slide-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1f4e79;
+            margin-bottom: 12px;
+        }
+
+        .slide-description {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .slide-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .metric {
+            background: #f0f5ff;
+            padding: 12px;
+            border-radius: 6px;
+            border-left: 4px solid #1f4e79;
+        }
+
+        .metric-label {
+            font-size: 12px;
+            color: #666;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .metric-value {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1f4e79;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        button {
+            background: #1f4e79;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #2d5a96;
+        }
+
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .slide-counter {
+            font-size: 14px;
+            font-weight: 600;
+            color: #555;
+            min-width: 60px;
+            text-align: center;
+        }
+
+        .dots {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #ddd;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .dot.active {
+            background: #1f4e79;
+        }
+
+        .github-link {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .github-link a {
+            display: inline-block;
+            background: #1f4e79;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: background 0.3s ease;
+        }
+
+        .github-link a:hover {
+            background: #2d5a96;
+        }
+
+        footer {
+            background: #f8f9fa;
+            padding: 30px 20px;
+            text-align: center;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .footer-content {
+            margin-bottom: 20px;
+        }
+
+        .footer-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1f4e79;
+            margin-bottom: 15px;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+
+        .contact-links a {
+            color: #1f4e79;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+
+        .contact-links a:hover {
+            color: #2d5a96;
+            text-decoration: underline;
+        }
+
+        .footer-note {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            .slide-image {
+                max-height: 350px;
+            }
+
+            .slide-title {
+                font-size: 20px;
+            }
+
+            .controls {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            button {
+                width: 100%;
+            }
+
+            .slide-counter {
+                width: 100%;
+            }
+
+            .contact-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .contact-links a {
+                display: block;
+            }
+        }
+
+        .tech-badge {
+            display: inline-block;
+            background: #e8f0ff;
+            color: #1f4e79;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-right: 6px;
+            margin-top: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Power BI Analytics Portfolio</h1>
+            <p>Daniel S. Demoz</p>
+            <p class="subtitle">Data Visualization & Business Intelligence Professional</p>
+        </header>
+
+        <div class="slideshow-container">
+            <!-- Project 1: Dominion Airlines -->
+            <div class="slide active">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/Dominion%20Airlines-%20Passenger%20Traffic%20Report.png" alt="Dominion Airlines Dashboard" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">📊 Transportation & Aviation</span>
+                    <div class="slide-title">Dominion Airlines: Passenger Traffic Report</div>
+                    <div class="slide-description">Interactive chord diagram mapping bidirectional passenger flows across five major Canadian hub airports. Supports route optimization, capacity planning, and aircraft deployment decisions.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Airports Tracked</div>
+                            <div class="metric-value">5 Hubs</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Visualization</div>
+                            <div class="metric-value">Chord Diagram</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Use Case</div>
+                            <div class="metric-value">Route Optimization</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Network Analysis</span><span class="tech-badge">Power BI</span><span class="tech-badge">Data Modeling</span></div>
+                </div>
+            </div>
+
+            <!-- Project 2: ABC Financial (Multiple Slides) -->
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/ABC%20Financial-%20Balanced%20Scorecard%20%26%20Strategic%20Performance%201.png" alt="ABC Financial Overview" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">💰 Finance & Strategic Performance</span>
+                    <div class="slide-title">ABC Financial: Balanced Scorecard (Overview)</div>
+                    <div class="slide-description">Executive dashboard tracking 12 KPIs across four strategic perspectives: Financial, Customer, Internal Process, and Learning & Growth. Real-time status monitoring for six departments.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">KPIs Tracked</div>
+                            <div class="metric-value">12 Total</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Status Distribution</div>
+                            <div class="metric-value">Traffic Light</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Perspectives</div>
+                            <div class="metric-value">4 Strategic</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">KPI Tracking</span><span class="tech-badge">DAX</span><span class="tech-badge">Strategy Map</span></div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/ABC%20Financial-%20Balanced%20Scorecard%20%26%20Strategic%20Performance%202.png" alt="ABC Financial Strategy Map" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">💰 Finance & Strategic Performance</span>
+                    <div class="slide-title">ABC Financial: Balanced Scorecard (Strategy Map)</div>
+                    <div class="slide-description">Hierarchical view of strategic objectives linked to underlying KPIs. Shows how financial, customer, internal process, and learning initiatives align to drive organizational performance.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Performance</div>
+                            <div class="metric-value">25% Green</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">At Risk</div>
+                            <div class="metric-value">58% Yellow</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Intervention</div>
+                            <div class="metric-value">17% Red</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Hierarchical Drill</span><span class="tech-badge">Complex Modeling</span></div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/ABC%20Financial-%20Balanced%20Scorecard%20%26%20Strategic%20Performance%203.png" alt="ABC Financial Trends" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">💰 Finance & Strategic Performance</span>
+                    <div class="slide-title">ABC Financial: Balanced Scorecard (Trend Analysis)</div>
+                    <div class="slide-description">12-month trend analysis showing KPI performance over time. Identifies seasonal patterns, growth trajectories, and early warning signs of underperformance requiring intervention.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Historical View</div>
+                            <div class="metric-value">12 Months</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Tracking</div>
+                            <div class="metric-value">Monthly Cadence</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Departments</div>
+                            <div class="metric-value">6 Units</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Time Series</span><span class="tech-badge">Trend Analysis</span></div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/ABC%20Financial-%20Balanced%20Scorecard%20%26%20Strategic%20Performance%204.png" alt="ABC Financial Department Performance" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">💰 Finance & Strategic Performance</span>
+                    <div class="slide-title">ABC Financial: Department Performance</div>
+                    <div class="slide-description">Cross-departmental analysis showing which units are performing on target vs. needing intervention. Enables accountability and drives data-backed resource allocation decisions.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">View Type</div>
+                            <div class="metric-value">Heat Map</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Accountability</div>
+                            <div class="metric-value">By Department</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Comparison</div>
+                            <div class="metric-value">Peer Benchmarking</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Heat Maps</span><span class="tech-badge">Drill-down</span></div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/ABC%20Financial-%20Balanced%20Scorecard%20%26%20Strategic%20Performance%205.png" alt="ABC Financial Initiatives" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">💰 Finance & Strategic Performance</span>
+                    <div class="slide-title">ABC Financial: Strategic Initiatives Tracking</div>
+                    <div class="slide-description">Executive view of six cross-functional strategic initiatives with status, timeline, and impact on KPIs. Supports portfolio management and prioritization of organizational change efforts.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Initiatives</div>
+                            <div class="metric-value">6 Active</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Status Types</div>
+                            <div class="metric-value">In Progress</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">View</div>
+                            <div class="metric-value">Timeline</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Project Management</span><span class="tech-badge">Portfolio Mgmt</span></div>
+                </div>
+            </div>
+
+            <!-- Project 3: Atlas Builders -->
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/Atlas%20Builders%20Integrated%20Construction%20Project%20Dashboard%201.png" alt="Atlas Builders Overview" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">🏗️ Construction & Project Management</span>
+                    <div class="slide-title">Atlas Builders: Project Overview</div>
+                    <div class="slide-description">Three-page dashboard tracking 48 tasks across seven project phases with real-time visibility into schedule and cost performance. Enables proactive risk management and stakeholder communication.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Completion</div>
+                            <div class="metric-value">68.75%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Schedule Variance</div>
+                            <div class="metric-value">-22 Days</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Cost Variance</div>
+                            <div class="metric-value">-$246K</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Project Tracking</span><span class="tech-badge">Variance Analysis</span></div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/Atlas%20Builders%20Integrated%20Construction%20Project%20Dashboard%202.png" alt="Atlas Builders Timeline" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">🏗️ Construction & Project Management</span>
+                    <div class="slide-title">Atlas Builders: Gantt Timeline</div>
+                    <div class="slide-description">Visual project timeline showing planned vs. actual dates for each phase and task. Quickly identifies schedule slips and enables proactive course correction to minimize project delays.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Phases</div>
+                            <div class="metric-value">7 Major</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Tasks Tracked</div>
+                            <div class="metric-value">48 Total</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">View</div>
+                            <div class="metric-value">Gantt Chart</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Gantt Charts</span><span class="tech-badge">Schedule Mgmt</span></div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/Atlas%20Builders%20Integrated%20Construction%20Project%20Dashboard%203.png" alt="Atlas Builders Cost Analysis" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">🏗️ Construction & Project Management</span>
+                    <div class="slide-title">Atlas Builders: Cost & Risk Analysis</div>
+                    <div class="slide-description">Detailed cost tracking by phase showing actual vs. budget with identification of top cost drivers and savings opportunities. Supports budget management and resource optimization decisions.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Cost Status</div>
+                            <div class="metric-value">Under Budget</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Top Overruns</div>
+                            <div class="metric-value">3 Items</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Risk Items</div>
+                            <div class="metric-value">15 Open</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Cost Analysis</span><span class="tech-badge">Risk Mgmt</span></div>
+                </div>
+            </div>
+
+            <!-- Project 4: Electrohub Sales -->
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/Electrohub%20Sales%20Report%20E-Commerce%20Performance%20Dashboard%201.png" alt="Electrohub Sales Dashboard" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">🛒 Retail & E-Commerce</span>
+                    <div class="slide-title">Electrohub Sales Report: E-Commerce Performance</div>
+                    <div class="slide-description">Comprehensive sales dashboard tracking revenue, product mix, channel performance (online vs. in-store), and regional trends. Supports pricing, inventory, and marketing investment decisions.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Total Revenue</div>
+                            <div class="metric-value">$19.97M</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Profit Margin</div>
+                            <div class="metric-value">25.08%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">AOV</div>
+                            <div class="metric-value">$907.60</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Sales Analytics</span><span class="tech-badge">Channel Compare</span><span class="tech-badge">Product Mix</span></div>
+                </div>
+            </div>
+
+            <!-- Project 5: Greenview Hospital -->
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/Greenview%20Hospital%20Admissions%20%26%20Patient%20Flow%20Analytics%201.png" alt="Greenview Hospital Overview" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">🏥 Healthcare & Patient Flow</span>
+                    <div class="slide-title">Greenview Hospital: Admissions Overview</div>
+                    <div class="slide-description">Multi-page healthcare operations dashboard tracking patient admissions, discharge patterns, and bed utilization. Supports capacity planning, staffing, and patient flow optimization.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Admissions</div>
+                            <div class="metric-value">5,000+</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Avg LOS</div>
+                            <div class="metric-value">3.68 Days</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Emergency %</div>
+                            <div class="metric-value">63.54%</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Healthcare Analytics</span><span class="tech-badge">Patient Flow</span></div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/Greenview%20Hospital%20Admissions%20%26%20Patient%20Flow%20Analytics%202.png" alt="Greenview Hospital by Department" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">🏥 Healthcare & Patient Flow</span>
+                    <div class="slide-title">Greenview Hospital: Department Analysis</div>
+                    <div class="slide-description">Department-level breakdown of admissions and length of stay. Identifies high-volume units (Emergency at 1,183 admissions) and enables resource allocation based on demand.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Departments</div>
+                            <div class="metric-value">11 Units</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Highest Volume</div>
+                            <div class="metric-value">Emergency</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Highest LOS</div>
+                            <div class="metric-value">ICU (6.94d)</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Department Metrics</span><span class="tech-badge">Drill-Down</span></div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/Greenview%20Hospital%20Admissions%20%26%20Patient%20Flow%20Analytics%203.png" alt="Greenview Hospital by Diagnosis" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">🏥 Healthcare & Patient Flow</span>
+                    <div class="slide-title">Greenview Hospital: Diagnosis Analysis</div>
+                    <div class="slide-description">Clinical diagnosis patterns showing top admission categories and associated length of stay. Supports quality improvement initiatives for high-volume diagnoses.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Diagnoses Tracked</div>
+                            <div class="metric-value">12+ Categories</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Highest LOS</div>
+                            <div class="metric-value">Sepsis (7.51d)</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Cross-Tab View</div>
+                            <div class="metric-value">Department x Diagnosis</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Clinical Analytics</span><span class="tech-badge">Cross-Tab Tables</span></div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/Greenview%20Hospital%20Admissions%20%26%20Patient%20Flow%20Analytics%204.png" alt="Greenview Hospital Discharge Disposition" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">🏥 Healthcare & Patient Flow</span>
+                    <div class="slide-title">Greenview Hospital: Discharge Planning</div>
+                    <div class="slide-description">Patient discharge destination breakdown showing home discharges (71.94%) vs. post-acute care placements. Critical for discharge planning and bed availability management.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Home</div>
+                            <div class="metric-value">71.94%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Post-Acute Care</div>
+                            <div class="metric-value">29.06%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Unique Patients</div>
+                            <div class="metric-value">1,000+</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Discharge Planning</span><span class="tech-badge">Care Coordination</span></div>
+                </div>
+            </div>
+
+            <!-- Project 6: Machine Tooling -->
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/Machine%20Tooling-%20Rod%20Diameter%20Variance%20Analysis.png" alt="Machine Tooling Dashboard" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">🏭 Manufacturing & Quality Control</span>
+                    <div class="slide-title">Machine Tooling: Rod Diameter Variance Analysis</div>
+                    <div class="slide-description">Quality control dashboard using box-whisker plots to monitor CNC machine performance. Identifies CNC_D requiring maintenance through statistical variance detection.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Machines Monitored</div>
+                            <div class="metric-value">4 CNC Units</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Mean Diameter</div>
+                            <div class="metric-value">50.00mm</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Std Dev</div>
+                            <div class="metric-value">0.15mm</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Statistical Analysis</span><span class="tech-badge">Quality Control</span><span class="tech-badge">SPC</span></div>
+                </div>
+            </div>
+
+            <!-- Project 7: Transit Forecast -->
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/Municipal%20Transit%20Ridership%20Forecast.png" alt="Transit Forecast Dashboard" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">🚌 Transportation & Public Services</span>
+                    <div class="slide-title">Municipal Transit: Ridership Forecast</div>
+                    <div class="slide-description">Time series forecasting for transit ridership with 7-year historical context and 12-month forward prediction. Supports budgeting, staffing, and capacity planning decisions.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Historical Data</div>
+                            <div class="metric-value">2018-2025</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Forecast Period</div>
+                            <div class="metric-value">12 Months</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Key Event</div>
+                            <div class="metric-value">COVID Impact</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Time Series</span><span class="tech-badge">Forecasting</span><span class="tech-badge">Seasonal Analysis</span></div>
+                </div>
+            </div>
+
+            <!-- Project 8: Pro Fit Gym -->
+            <div class="slide">
+                <img src="https://raw.githubusercontent.com/DanielDemoz/PowerBI-Portfolio-Daniel-D/main/images/Pro%20Fit%20Gym%20Member%20Engagement%20%26%20Retention%20Analytics.png" alt="Pro Fit Gym Dashboard" class="slide-image">
+                <div class="slide-info">
+                    <span class="slide-category">💪 Wellness & Fitness</span>
+                    <div class="slide-title">Pro Fit Gym: Member Engagement & Retention</div>
+                    <div class="slide-description">Member engagement dashboard tracking retention rate, class attendance, check-in frequency, and demographic distribution. Supports retention campaigns and class scheduling optimization.</div>
+                    <div class="slide-metrics">
+                        <div class="metric">
+                            <div class="metric-label">Active Members</div>
+                            <div class="metric-value">695</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Retention Rate</div>
+                            <div class="metric-value">86.88%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Avg Check-ins</div>
+                            <div class="metric-value">7.50 per member</div>
+                        </div>
+                    </div>
+                    <div><span class="tech-badge">Member Analytics</span><span class="tech-badge">Retention</span><span class="tech-badge">Engagement</span></div>
+                </div>
+            </div>
+
+            <!-- Navigation Controls -->
+            <div class="controls">
+                <button onclick="changeSlide(-1)" id="prevBtn">← Previous</button>
+                <div class="slide-counter"><span id="slideNumber">1</span> of <span id="totalSlides">17</span></div>
+                <button onclick="changeSlide(1)" id="nextBtn">Next →</button>
+            </div>
+
+            <div class="dots" id="dotsContainer"></div>
+
+            <div class="github-link">
+                <a href="https://github.com/DanielDemoz/PowerBI-Portfolio-Daniel-D" target="_blank">View Full Portfolio on GitHub</a>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-title">Connect With Daniel</div>
+                <div class="contact-links">
+                    <a href="mailto:asbdansi9@gmail.com">Email: asbdansi9@gmail.com</a>
+                    <a href="tel:+14372493308">Phone: (437) 249-3308</a>
+                    <a href="https://linkedin.com/in/daniel-s-demoz" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/DanielDemoz" target="_blank">GitHub</a>
+                    <a href="https://brukdconsultancy.com" target="_blank">Website</a>
+                </div>
+            </div>
+            <div class="footer-note">
+                <p>Eight Power BI dashboards spanning healthcare, finance, manufacturing, retail, transportation, construction, and wellness industries. Each demonstrates advanced data visualization, business intelligence, and analytical problem-solving.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        let currentSlide = 1;
+        const totalSlides = document.querySelectorAll('.slide').length;
+        document.getElementById('totalSlides').textContent = totalSlides;
+
+        function showSlide(n) {
+            const slides = document.querySelectorAll('.slide');
+            
+            if (n > totalSlides) currentSlide = totalSlides;
+            if (n < 1) currentSlide = 1;
+            
+            slides.forEach(slide => slide.classList.remove('active'));
+            slides[currentSlide - 1].classList.add('active');
+            
+            document.getElementById('slideNumber').textContent = currentSlide;
+            
+            document.getElementById('prevBtn').disabled = currentSlide === 1;
+            document.getElementById('nextBtn').disabled = currentSlide === totalSlides;
+            
+            updateDots();
+        }
+
+        function changeSlide(n) {
+            currentSlide += n;
+            showSlide(currentSlide);
+        }
+
+        function updateDots() {
+            const dots = document.querySelectorAll('.dot');
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index + 1 === currentSlide);
+            });
+        }
+
+        function createDots() {
+            const dotsContainer = document.getElementById('dotsContainer');
+            for (let i = 1; i <= totalSlides; i++) {
+                const dot = document.createElement('span');
+                dot.className = 'dot';
+                if (i === 1) dot.classList.add('active');
+                dot.onclick = () => {
+                    currentSlide = i;
+                    showSlide(currentSlide);
+                };
+                dotsContainer.appendChild(dot);
+            }
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') changeSlide(-1);
+            if (e.key === 'ArrowRight') changeSlide(1);
+        });
+
+        createDots();
+        showSlide(currentSlide);
+    </script>
+</body>
+</html>
