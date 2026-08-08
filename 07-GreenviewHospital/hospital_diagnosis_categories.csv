@@ -1,0 +1,13 @@
+DiagnosisID,DiagnosisCategory,ClinicalGroup
+DX01,Respiratory Infection,Infectious
+DX02,Chest Pain / Cardiac,Cardiology
+DX03,Fracture / Injury,Orthopedics
+DX04,Appendicitis / Acute Abdomen,Surgery
+DX05,Stroke / Neuro Event,Neurology
+DX06,Diabetes Complication,Chronic
+DX07,Cancer Treatment Visit,Oncology
+DX08,Pregnancy / Delivery,Obstetrics
+DX09,Pediatric Fever,Pediatrics
+DX10,Sepsis,Critical Care
+DX11,Mental Health Crisis,Behavioral Health
+DX12,Other / General,General
