@@ -29,7 +29,7 @@ I bring a unique combination of technical depth (advanced Python, SQL, DAX, mach
 - Curriculum design for multi-course business and accounting programs
 - Student mentoring and professional development
 
-**BRUKD Consultancy** (Dec 2017 - Present)  
+**Daniel S. Demoz — Independent Practice** (Dec 2017 - Present)  
 **Founder & Data/AI Strategy Consultant**
 - Digital transformation and analytics modernization consulting
 - Workflow automation and process optimization
@@ -135,7 +135,7 @@ Instructor & Researcher
 
 ## Professional Experience
 
-**BRUKD Consultancy** (Dec 2017 - Present)  
+**Daniel S. Demoz — Independent Practice** (Dec 2017 - Present)  
 Founder & Data/AI Strategy Consultant
 - Digital transformation strategy for small and medium businesses
 - Analytics modernization and BI system implementation
@@ -190,7 +190,7 @@ Data science and machine learning projects: [https://danieldemoz.github.io/Danie
 ### GitHub
 Code projects and data analytics work: [https://github.com/DanielDemoz](https://github.com/DanielDemoz)
 
-### BRUKD Consultancy
+### Website
 Business site and case studies: [https://brukdconsultancy.com](https://brukdconsultancy.com)
 
 ---
