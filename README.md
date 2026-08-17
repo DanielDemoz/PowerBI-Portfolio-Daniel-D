@@ -218,7 +218,7 @@ Daniel Demoz brings 8+ years of data analytics and business intelligence experie
 **Current Roles:**
 - George Brown College: Professor of Data Management & Analytics (2025-Present)
 - Computek College: Instructor of Business and Database Management (2021-Present)
-- BRUKD Consultancy: Founder & Data/AI Strategy Consultant (2017-Present)
+- Independent Data/AI Strategy Consultant (2017-Present)
 
 **Education:**
 - Master of Interdisciplinary Artificial Intelligence (University of Ottawa, 2025-2026, GPA: 3.84/4.0)
