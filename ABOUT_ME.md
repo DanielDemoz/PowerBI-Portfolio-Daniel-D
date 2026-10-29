@@ -160,8 +160,8 @@ Project Monitoring & Evaluation Manager
 
 ## Publications & Intellectual Property
 
-**"Evidence-Based AI: Making Reliable AI Decisions"**  
-Published on Amazon: [https://www.amazon.ca/dp/B0GT213SSC](https://www.amazon.ca/dp/B0GT213SSC)
+**"Evidence-Based AI: The Discipline Behind Reliable AI"**  
+Published on Amazon.ca: [https://www.amazon.ca/Evidence-Based-AI-Discipline-Behind-Reliable/dp/B0H5HJSR6Z](https://www.amazon.ca/Evidence-Based-AI-Discipline-Behind-Reliable/dp/B0H5HJSR6Z)
 
 Covers responsible AI decision-making, bias assessment, and governance frameworks for organizations implementing AI solutions.
 
