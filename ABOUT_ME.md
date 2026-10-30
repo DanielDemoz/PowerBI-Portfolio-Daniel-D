@@ -243,7 +243,6 @@ I am open to:
 ## Contact
 
 📧 **Email:** asbdansi9@gmail.com  
-📱 **Phone:** (437) 249-3308  
 🔗 **LinkedIn:** [linkedin.com/in/daniel-s-demoz](https://linkedin.com/in/daniel-s-demoz)  
 💼 **GitHub:** [github.com/DanielDemoz](https://github.com/DanielDemoz)  
 🌐 **Website:** [brukdconsultancy.com](https://brukdconsultancy.com)

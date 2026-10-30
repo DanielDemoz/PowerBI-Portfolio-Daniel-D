@@ -16,6 +16,14 @@ Authored eight complete `.pbix` projects with supporting CSVs, PDF snapshots, an
 - Documented key metrics per project (e.g., Electrohub $19.97M revenue / 25.08% margin; Greenview 5K admissions / 3.68 avg LOS; Pro Fit 86.88% retention)
 - Techniques demonstrated: forecasting, cohort analysis, hierarchical drill-down, statistical distributions, network flow visualization
 
+## About the data
+
+All eight companies (Dominion Airlines, Atlas Builders, ABC Financial and the others) are fictional, and their datasets are practice data. Names of people in the member and patient tables are generated, not real. Key figures quoted in the project READMEs were re-checked against the CSV files in October 2026: for example, Electrohub revenue $19.97M at a 25.08% margin, Greenview 5,000 admissions with a 3.68-day average stay, and 695 of 800 Pro Fit members active (86.88%).
+
+## Responsible use
+
+The hospital and gym dashboards show how to report on personal data. With real records, they would need access controls, aggregation thresholds so small groups cannot be identified, and only the fields the report needs.
+
 ## Tech stack
 
 Power BI Desktop, DAX, CSV data models, PDF export snapshots
