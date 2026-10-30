@@ -244,7 +244,6 @@ Open `Machine Tooling Visual.pdf` to see a snapshot of quality metrics.
 **Daniel S. Demoz**
 
 📧 **Email:** asbdansi9@gmail.com  
-📱 **Phone:** (437) 249-3308  
 🔗 **LinkedIn:** [linkedin.com/in/daniel-s-demoz](https://linkedin.com/in/daniel-s-demoz)  
 💼 **GitHub:** [github.com/DanielDemoz](https://github.com/DanielDemoz)  
 🌐 **Website:** [brukdconsultancy.com](https://brukdconsultancy.com)
