@@ -10,10 +10,10 @@
 This executive dashboard tracks organizational performance across four strategic perspectives: Financial, Customer, Internal Process, and Learning & Growth. Monitor 12 key performance indicators (KPIs) against targets, identify underperforming areas, and make data-driven decisions to align the entire organization around strategic objectives.
 
 **Strategic Perspectives:**
-- 💵 **Financial** — Revenue growth, profitability, cost management
-- 👥 **Customer** — Satisfaction, retention, market share
-- ⚙️ **Internal Process** — Efficiency, quality, cycle time
-- 📈 **Learning & Growth** — Employee development, innovation, capability
+- 💵 **Financial**: Revenue growth, profitability, cost management
+- 👥 **Customer**: Satisfaction, retention, market share
+- ⚙️ **Internal Process**: Efficiency, quality, cycle time
+- 📈 **Learning & Growth**: Employee development, innovation, capability
 
 ---
 
@@ -44,7 +44,7 @@ Better visibility enables:
 - **Intervention Needed (Red):** 17% of KPIs requiring action
 
 **Key Findings:**
-- Analytics adoption at 46% (target: 52%) — needs focus
+- Analytics adoption at 46% (target: 52%), needs focus
 - Employee engagement slightly below target
 - Revenue and cost metrics tracking well
 - Customer satisfaction holding steady
@@ -63,34 +63,34 @@ Open `Executive Summary KPI Balanced Scorecard.pdf` to see a snapshot of perform
 1. Download **Power BI Desktop** (free at powerbi.microsoft.com)
 2. Open `Executive Summary KPI Balanced Scorecard.pbix`
 3. Data auto-connects to dimension and fact tables:
-   - `dim_perspective.csv` — Strategic perspectives
-   - `dim_objective.csv` — Strategic objectives
-   - `dim_kpi.csv` — KPI definitions and targets
-   - `dim_department.csv` — Organizational departments
-   - `dim_initiative.csv` — Strategic initiatives
-   - `dim_date.csv` — Date hierarchy for trending
-   - `fact_kpi_monthly.csv` — Monthly KPI performance data
+   - `dim_perspective.csv`, Strategic perspectives
+   - `dim_objective.csv`, Strategic objectives
+   - `dim_kpi.csv`, KPI definitions and targets
+   - `dim_department.csv`, Organizational departments
+   - `dim_initiative.csv`, Strategic initiatives
+   - `dim_date.csv`, Date hierarchy for trending
+   - `fact_kpi_monthly.csv`, Monthly KPI performance data
 
 **Dashboard Pages:**
-1. **Scorecard Overview** — At-a-glance status
+1. **Scorecard Overview**: At-a-glance status
    - KPI cards with traffic-light status (green/yellow/red)
    - Actual vs. target comparison
    - Variance highlighting
    - Month-over-month change
 
-2. **Perspective Deep Dive** — By strategic area
+2. **Perspective Deep Dive**: By strategic area
    - Financial perspective KPIs
    - Customer perspective KPIs
    - Internal process KPIs
    - Learning & growth KPIs
 
-3. **Trend Analysis** — Historical performance
+3. **Trend Analysis**: Historical performance
    - 12-month trend lines by KPI
    - Seasonal patterns
    - Progress toward annual targets
    - Early warning signs
 
-4. **Department Performance** — By organizational unit
+4. **Department Performance**: By organizational unit
    - Performance by department
    - Cross-department comparison
    - Responsibility assignment
@@ -174,9 +174,9 @@ Open `Executive Summary KPI Balanced Scorecard.pdf` to see a snapshot of perform
 - Learning & Growth: Engagement below target, adoption lagging
 
 **Actionable Findings:**
-- Analytics adoption at 46% — identify barriers, increase training
-- Employee engagement gap — check culture, recognition, growth opportunities
-- Strong delivery performance — leverage this capability in marketing
+- Analytics adoption at 46%, identify barriers, increase training
+- Employee engagement gap, check culture, recognition, growth opportunities
+- Strong delivery performance, leverage this capability in marketing
 
 **Strategic Opportunities:**
 - Use strong financial performance to fund learning initiatives
@@ -231,9 +231,9 @@ Open `Executive Summary KPI Balanced Scorecard.pdf` to see a snapshot of perform
 
 **About the Dashboard:**
 - How do I interpret the traffic lights? (Green = at/above target, Yellow = 90-99%, Red = below 90%)
-- Can I drill into specific KPIs? Yes — Click any KPI to see detail and history
+- Can I drill into specific KPIs? Yes, Click any KPI to see detail and history
 - How do I add new KPIs? Update dim_kpi.csv and fact_kpi_monthly.csv, then refresh
-- Can I customize targets? Yes — Edit dim_kpi.csv and refresh the dashboard
+- Can I customize targets? Yes, Edit dim_kpi.csv and refresh the dashboard
 
 **Troubleshooting:**
 - KPIs not updating? Refresh data connection in Power BI

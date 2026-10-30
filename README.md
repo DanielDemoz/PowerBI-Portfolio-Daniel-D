@@ -4,7 +4,7 @@ Eight industry Power BI projects demonstrating dashboard design, DAX modeling, a
 
 ## Problem
 
-Employers and clients need evidence of end-to-end BI capability—multi-page dashboards, advanced visuals, and domain-specific KPIs—not just single-chart samples.
+Employers and clients need evidence of end-to-end BI capability: multi-page dashboards, advanced visuals and domain-specific KPIs, not just single-chart samples.
 
 ## Approach
 
@@ -41,4 +41,4 @@ Each folder includes source CSVs, measures reference files, and a project-specif
 
 Static PDF snapshots included in each project folder (e.g., `01-DominionAirlines/`, `05-TransitForecast/`). See root `images/` and individual project directories for visual previews.
 
-**Author:** Daniel S. Demoz — see `ABOUT_ME.md` for professional background.
+**Author:** Daniel S. Demoz. See `ABOUT_ME.md` for professional background.

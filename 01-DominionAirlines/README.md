@@ -154,7 +154,7 @@ Open `PDF - Airport Traffic Visual.pdf` to see a snapshot of the visualization.
 
 **About the Dashboard:**
 - How do I interpret the chord diagram? (See "How to Use" section)
-- Can I modify this? Yes — Power BI Desktop allows full customization
+- Can I modify this? Yes, Power BI Desktop allows full customization
 - How often does data update? Updates when you refresh the data connection
 
 ---

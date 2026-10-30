@@ -47,7 +47,7 @@ Better visibility enables:
 - **CNC_A:** Tight distribution, in control
 - **CNC_B:** Tight distribution, in control
 - **CNC_C:** Tight distribution, in control
-- **CNC_D:** Wide distribution — requires maintenance/recalibration
+- **CNC_D:** Wide distribution, requires maintenance/recalibration
 
 **Quality Status:**
 - Average acceptance rate: 95%+ (depends on tolerance spec)
@@ -69,25 +69,25 @@ Open `Machine Tooling Visual.pdf` to see a snapshot of quality metrics.
 3. Data auto-connects to `machine_stats.csv` (measurement data from QC system)
 
 **Dashboard Pages:**
-1. **Overview** — At-a-glance quality status
+1. **Overview**: At-a-glance quality status
    - Mean diameter and standard deviation
    - Min/max range
    - Process capability indicators
    - Machine status indicators
 
-2. **Statistical Distribution** — Variance analysis
+2. **Statistical Distribution**: Variance analysis
    - Box-whisker plots by machine
    - Visual comparison of machine spread
    - Outlier identification
    - Control limit reference lines
 
-3. **Control Charts** — Trend over time
+3. **Control Charts**: Trend over time
    - Running mean by machine
    - Variance trending
    - SPC (Statistical Process Control) signals
    - Alert flags for out-of-control conditions
 
-4. **Machine Drill-Down** — Detailed analysis
+4. **Machine Drill-Down**: Detailed analysis
    - Histogram of measurements per machine
    - Measurement frequency distribution
    - Acceptance rate by machine
@@ -104,10 +104,10 @@ Open `Machine Tooling Visual.pdf` to see a snapshot of quality metrics.
 ### Example Questions You Can Answer
 
 **"Which machine needs immediate attention?"**
-→ Look at box-whisker plot — CNC_D shows widest spread and outliers
+→ Look at box-whisker plot, CNC_D shows widest spread and outliers
 
 **"Is CNC_D getting worse over time?"**
-→ View control chart — increasing variance = maintenance needed NOW
+→ View control chart, increasing variance = maintenance needed NOW
 
 **"What's our defect rate trend?"**
 → Track % out-of-spec over 30-day window
@@ -146,7 +146,7 @@ Open `Machine Tooling Visual.pdf` to see a snapshot of quality metrics.
 
 **Machine Performance Status:**
 - **CNC_A, B, C:** Performing well with tight, consistent distributions
-- **CNC_D:** Critical variance — requires immediate maintenance
+- **CNC_D:** Critical variance, requires immediate maintenance
   - Wider whiskers indicate loose tolerance
   - High outliers suggest calibration drift
   - Likely causing scrap/rework in production
@@ -211,10 +211,10 @@ Open `Machine Tooling Visual.pdf` to see a snapshot of quality metrics.
 ## Maintenance & Troubleshooting
 
 **When to Take Action:**
-- **Yellow Alert:** Std Dev > 0.12mm — Monitor closely, schedule maintenance
-- **Red Alert:** Std Dev > 0.15mm — Immediate maintenance required
-- **Trend Alert:** Variance increasing over time — Wear pattern detected
-- **Calibration Alert:** Mean drifting from 50.00mm — Recalibration needed
+- **Yellow Alert:** Std Dev > 0.12mm, Monitor closely, schedule maintenance
+- **Red Alert:** Std Dev > 0.15mm, Immediate maintenance required
+- **Trend Alert:** Variance increasing over time, Wear pattern detected
+- **Calibration Alert:** Mean drifting from 50.00mm, Recalibration needed
 
 **Preventive Maintenance Schedule:**
 - Weekly: Check CNC_D variance (currently at risk)
@@ -229,8 +229,8 @@ Open `Machine Tooling Visual.pdf` to see a snapshot of quality metrics.
 **About the Dashboard:**
 - How do I read the box-whisker plot? (Median line = 50th percentile, box = 25th-75th, whiskers = outliers)
 - What does variance mean? (Higher = less consistent, quality risk)
-- Should I stop production? (If Cpk < 1.0, yes — stop and investigate)
-- Can I export data? Yes — Power BI allows export for SPC records
+- Should I stop production? (If Cpk < 1.0, yes, stop and investigate)
+- Can I export data? Yes, Power BI allows export for SPC records
 
 **Quality Standards:**
 - What's an acceptable Cp? (> 1.67 = excellent, > 1.33 = acceptable, < 1.0 = at risk)

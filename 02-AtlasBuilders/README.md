@@ -80,23 +80,23 @@ Open `Construction Project Dashboard.pdf` to see the dashboard snapshot.
 1. Download **Power BI Desktop** (free at powerbi.microsoft.com)
 2. Open `Construction Project Dashboard.pbix`
 3. Data auto-connects to CSV files:
-   - `atlas_projects_Data.csv` — Project overview
-   - `atlas_phases_Data.csv` — Phase-level details
-   - `atlas_tasks_Data.csv` — Individual tasks
-   - `atlas_task_assignments_Data.csv` — Resource allocation
+   - `atlas_projects_Data.csv`, Project overview
+   - `atlas_phases_Data.csv`, Phase-level details
+   - `atlas_tasks_Data.csv`, Individual tasks
+   - `atlas_task_assignments_Data.csv`, Resource allocation
 
 **Dashboard Pages:**
-1. **Overview** — High-level status and KPIs
+1. **Overview**: High-level status and KPIs
    - Cards showing completion %, schedule variance, cost variance
    - Phase-by-phase status indicators
    - Key metrics at a glance
 
-2. **Timeline (Gantt Chart)** — Schedule tracking
+2. **Timeline (Gantt Chart)**: Schedule tracking
    - Planned vs. actual dates per task
    - Visual identification of schedule slips
    - Phase dependencies and sequencing
 
-3. **Cost & Risk Analysis** — Budget performance
+3. **Cost & Risk Analysis**: Budget performance
    - Cost by phase (actual vs. budget)
    - Top 10 cost drivers and savings
    - Risk identification and status
@@ -213,8 +213,8 @@ Open `Construction Project Dashboard.pdf` to see the dashboard snapshot.
 
 **About the Dashboard:**
 - How do I read the Gantt chart? (See "Dashboard Pages" section)
-- Can I add new tasks? Yes — Update the CSV files and refresh
-- Can I customize this? Yes — Power BI Desktop allows full editing
+- Can I add new tasks? Yes, Update the CSV files and refresh
+- Can I customize this? Yes, Power BI Desktop allows full editing
 - How often should I update data? Update as tasks progress (weekly recommended)
 
 **Troubleshooting:**
